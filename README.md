@@ -1,11 +1,11 @@
 <!-- 标题部分 -->
 <div style="width: 100%; height: 100px; text-align: center; background-color: #f4f4f4; padding: 20px 0;">
    <h1 style="font-size: 50px; font-weight: bold; color: black; line-height: 100px;">
-       SeaFBen: Evaluation Benchmark for Southeast Asia
+      LanMe: Exploration and Evaluation of Multilingual Large Language Models for Southeast Asian Finance
    </h1>
 </div>
-   Welcome to here, let's get to know SeaFBen together. </br>
-   we introduce SeaFBen, the first open-source benchmark for Southeast Asian multilingual financial tasks. Covering 22,068 samples across 20 datasets from the region’s five most populous countries, SeaFBen evaluates five key tasks: Knowledge Understanding(KU), Investment Tendency(IT), Credit Rating(CR), Financial Decision-making(FD), and Numerical Reasoning(NR). It pioneers multilingual financial task evaluation, regional localization, and introduces five new datasets. Evaluating 12 LLMs reveals significant performance differences.
+   Welcome to here, let's get to know LanMe together. </br>
+   we introduce LanMe (澜湄), the first open-source multilingual framework for Southeast Asian financial NLP. LanMe includes the multilingual instruction dataset SeaFitd, fine-tuned financial LLM SeaFllm, and the evaluation benchmark SeaFBen. SeaFitd covers 26 datasets in 5 Southeast Asian languages (Thai, Indonesian, Vietnamese, Filipino, and Malay), containing 369,849 data points across 5 financial tasks, expanding the breadth and depth of low-resource language financial modeling. Using this, we fine-tune the SeaLLM-7B backbone model to create the innovative financial LLM SeaFllm. We then evaluate vairous models using SeaFBen, the first comprehensive multilingual benchmark, covering unseen, balanced cross-lingual tasks. Experimental results show that existing LLMs struggle with low-resource languages, exhibiting issues catastrophic forgetting and language performance disparities and biases, with SeaFllm outperforming various LLMs, including Southeast Asian's LLMs and large-parameter ChatGPT. Our research highlights the potential of LanMe to fill gaps in financial NLP for Southeast Asian, offering high-quality annotated datasets, evaluation tools, and models
 <!-- 作者部分 -->
 
    
@@ -66,13 +66,7 @@
 
 - [Tha] - [Ind]  - [Vie]  - [May]  - [Fil]
 
-**Papers**
-<!--
-- [PIXIU: A Comprehensive Benchmark, Instruction Dataset and Large Language Model for Finance](https://arxiv.org/abs/2306.05443)
-- [The FinBen: An Holistic Financial Benchmark for Large Language Models](https://arxiv.org/abs/2402.12659)
-- [No Language is an Island: Unifying Chinese and English in Financial Large Language Models, Instruction Data, and Benchmarks](https://arxiv.org/abs/2403.06249)
-- [Dólares or Dollars? Unraveling the Bilingual Prowess of Financial LLMs Between Spanish and English](https://arxiv.org/abs/2402.07405)
--->
+
 **Evaluations**:
 
 - [English Evaluation Datasets](https://huggingface.co/collections/TheFinAI/english-evaluation-dataset-658f515911f68f12ea193194) (More details on FinBen section)
@@ -139,47 +133,52 @@
 ### Key Features
 
 
-- **Open Resources**: SeaFBen openly provides Southeast Asian financial datasets included in the evaluation benchmark, featuring custom-built numerical reasoning datasets created in collaboration with Southeast Asian experts, to encourage open research and enhance transparency.
+- **Diversified Low-Resource Language Capabilities**: SeaFllm, designed specifically for Southeast Asian financial LLMs, demonstrates exceptional performance across multiple Southeast Asian languages, particularly in cross-language financial Q\&A scenarios.
 
-- **Multi-task**: The PIXIU benchmark covers a variety of financial tasks, including 5 Southeast Asian languages, 5 Southeast Asian financial tasks, and 20 financial datasets.
+- ** Addressing Low-Resource Financial Data Scarcity**: SeaFitd combines open-source datasets, manually created data, and curated translation and proofreading datasets that remove cultural and contextual biases to marks a significant breakthrough in both diversity and scale.
 
-- **Multi-modality**: The PIXIU benchmark consists of multi-modal financial data, including time-series data from stock movement prediction tasks. It encompasses various types of financial texts, such as reports, news articles, tweets, and regulatory filings.
+- **High-Quality Southeast Asian Financial Prompts**: SeaFitd is the first to showcase a diverse set of high-quality, expert-annotated prompts tailored for low-resource language finance, significantly improving prompt to optimize model performance.
 
-- **Diversity**: Unlike previous benchmarks that primarily focus on financial NLP tasks, SeaFBen's evaluation benchmark includes Southeast Asian financial prediction tasks aligned with real-world scenarios, making it more challenging.
+- **Cross-Language and Generalization Evaluation**:  SeaFBen introduces the unseen datasets to explore the model's generalization capabilities, including the FinNR and FinMD task to ensure balanced evaluation across different languages.
+-  **Open-source Resource Sharing Contribution**: LanMe provides open-source models and evaluation tools, particularly addressing the gap in scarce financial data for low-resource languages, fostering collaborative advancement in financial NLP
+
 
 ---
 
-## SeaFBen Evalution Benchmark result: The evaluation results of 12 representative large models on SeaFBen.
+## SeaFBen Evalution Benchmark result: The evaluation results of 13 representative large models on SeaFBen.
 
-In this section, we provide a detailed performance analysis of FinMA compared to other leading models, including ChatGPT, GPT-4, and BloombergGPT et al. For this analysis, we've chosen a range of tasks and metrics that span various aspects of financial Natural Language Processing and financial prediction. All model results of FinBen can be found on our [leaderboard](https://huggingface.co/spaces/TheFinAI/flare)!
+In this section, we provide a detailed performance analysis of FinMA compared to other leading models, including ChatGPT, Qwen2-7B, and BloombergGPT et al. For this analysis, we've chosen a range of tasks and metrics that span various aspects of financial Natural Language Processing and financial prediction. All model results of FinBen can be found on our [leaderboard](https://huggingface.co/spaces/TheFinAI/flare)!
 
 ### Tasks
 
-
-| Task | Language | Dataset         | Task                     | Test | Evaluation          | License      | Paper      |
-|------|----------|-----------------|--------------------------|------|---------------------|--------------|------------|
-| KU   | Tha      | ThaEx           | financial exam           | 631  | Accuracy, Macro F1  | Apache-2.0   |[[3]](#3)  |
-|      | Ind      | IndFinComment   | rating prediction        | 1,999| Accuracy, Macro F1  | CC BY-NC 4.0 | [[4]](#4)  |
-|      | Ind      | IndFinURL       | url summarization        | 2,834| ROUGE, BERTScore    | Public       | [[5]](#5)  |
-| IT   | Ind      | IndFinSent      | sentiment analysis       | 2,000| F1, Accuracy        | Apache-2.0   | [[6]](#6)  |
-|      | Fil      | FilFiQASA       | sentiment analysis       | 233  | F1, Accuracy        | MIT License  | [[2]](#2)  |
-|      | May      | MayFPB          | sentiment analysis       | 970  | F1, Accuracy        | MIT License  | [[1]](#1)  |
-| CR   | Ind      | IndCCFraud      | fraud detection          | 2,098| F1, MCC             | Public       |[[10]](#10)  |
-|      | Vie      | VieCraccf       | fraud detection          | 2,279| F1, MCC             | (DbCL) v1.0  | [[7]](#7)  |
-|      | Fil      | FilLendingClub  | credit scoring           | 2,691| F1, MCC             | CC0 1.0      | [[10]](#10)  |
-|      | May      | MayAustralian   | credit scoring           | 133  | F1, MCC             | CC BY 4.0    | [[9]](#9)|
-| FD   | Ind      | IndCikm         | stock movement prediction| 1,139| F1, Accuracy        | Public       | [[13]](#13) |
-|      | Vie      | VieBigdata      | stock movement prediction| 1,139| F1, Accuracy        | Public       |[[11]](#11) |
-|      | Fil      | FilACL18        | stock movement prediction| 1,139| F1, Accuracy        | MIT License  |  [[12]](#12))|
-|      | May      | MayACL18        | stock movement prediction| 1,139| F1, Accuracy        | MIT License  |  [[12]](#12)|
-|      | Tha      | ThaStockA       | stock movement prediction| 1,139| F1, Accuracy        | Public       |[[8]](#8) |
-| NR   | Tha      | ThaRen          | quantitative reasoning   | 101  | EM Accuracy         | Public       | |
-|      | Ind      | IndRen          | quantitative reasoning   | 101  | EM Accuracy         | Public       | |
-|      | May      | MayRen          | quantitative reasoning   | 101  | EM Accuracy         | Public       ||
-|      | Fil      | FilRen          | quantitative reasoning   | 101  | EM Accuracy         | Public       | |
-|      | Vie      | VieRen          | quantitative reasoning   | 101  | EM Accuracy         | Public       ||
-
-
+| **Financial Task** | **Language** | **Dataset**   | **Raw**  | **Instruction**  | **Data Types**      | **Modalities**     | **Source**      | **Textual Hierarchy** | **License**     | **Paper**|
+|-------------------|--------------|---------------|---------|------------------|---------------------|--------------------|-----------------|-----------------------|-----------------|-----------------|
+| **FinKU**         | Tha          | Exam          | 158     | 3159             | financial exam      | text, table        | Collection      | Sentence             | Apache-2.0      |[[3]](#3)  |
+|                   |              | ThaEval       | 1,115   | 1,113            | financial exam      | text               | Annotation      | Paragraph            | Apache-2.0      |
+|                   |              | ThaNA         | 32,400  | 32,400           | News, Announcement  | text               | Annotation      | Paragraph            | Public          |
+|                   | Ind          | UrlSum        | 14,168  | 14,168           | Indonesian News URLs| table              | Collection      | Paragraph            | Public          | [[5]](#5)  |
+|                   |              | AppRevs       | 154,637 | 153,214          | Mandiri App Reviews | text               | Collection      | Sentence             | CC BY-NC 4.0    |[[4]](#4)  |
+|                   |              | FinTopic      | 21,120  | 21,105           | News Articles       | text               | Collection      | Sentence             | Apache-2.0      |
+|                   | Vie          | VieFinRED     | 1,063   | 1,063            | Earning Call Transcripts | text             | Annotation      | Paragraph            | Public          |
+| **FinIS**         | Ind          | FinSent       | 2,274   | 22,740           | News Headlines      | text, table        | Collection      | Sentence             | Apache-2.0      |[[6]](#6)  |
+|                   | Fil          | FilSA         | 1,173   | 1,171            | News Headlines, Tweets | text             | Annotation      | Sentence             | Public          |[[2]](#2)  |
+|                   |              | FilHeadlines  | 11,412  | 10,256           | News Headlines      | text               | Annotation      | Sentence             | CC BY-SA 3.0    |
+|                   | Vie          | VieNL         | 7,955   | 7,938            | News Articles       | text               | Annotation      | Paragraph            | Public          |
+|                   | May          | MayFPB        | 4,845   | 4,845            | Economic News       | text               | Annotation      | Paragraph            | CC BY-SA 3.0    |[[1]](#1)  |
+| **FinCR**         | Ind          | IndCCFraud    | 10,485  | 10,485           | Transaction Samples | table              | Annotation      | Paragraph            | Public          |[[10]](#10)  |
+|                   | Fil          | FilLenClub    | 13,452  | 13,452           | Loan Transactions   | table              | Annotation      | Discourse            | CC0 1.0        |[[10]](#10)  |
+|                   | Vie          | VieCRACCF     | 11,391  | 11,391           | Cardholder Transactions | table            | Annotation      | Paragraph            | (DbCL) v1.0     | [[7]](#7)  |
+|                   | May          | MayAustralian | 690     | 684              | Credit Records      | table              | Annotation      | Paragraph            | CC BY-SA 4.0    | [[9]](#9)|
+| **FinDM**         | Tha          | ThaStockA     | 14,769  | 14,767           | News, Stock Prices  | text, times series | Annotation      | Paragraph            | Public          |[[8]](#8) |
+|                   | Ind          | IndCIKM18     | 4,967   | 4,963            | Stock Prices        | text, times series | Annotation      | Paragraph            | Public          |[[13]](#13) |
+|                   | Fil          | FilACL18      | 27,053  | 27,039           | Tweets, Stock Prices| text, times series | Annotation      | Paragraph            | MIT license     |[[12]](#12))|
+|                   | Vie          | VieBigdata22  | 7,164   | 7,153            | Tweets, Stock prices| text, times series | Annotation      | Paragraph            | Public          |[[12]](#12))|
+|                   | May          | MayACL18      | 27,053  | 27,039           | Tweets, Stock prices| text, times series | Annotation      | Paragraph            | MIT license     |[[12]](#12))|
+| **FinNR**         | Tha          | ThaNRen       | 101     | 101              | Campus Math Tests   | text               | Construction    | Paragraph            | Public          ||
+|                   | Ind          | IndNRen       | 101     | 101              | Campus Math Tests   | text               | Construction    | Paragraph            | Public          ||
+|                   | Fil          | FilNRen       | 101     | 101              | Campus Math Tests   | text               | Construction    | Paragraph            | MIT license     ||
+|                   | Vie          | VieNRen       | 101     | 101              | Campus Math Tests   | text               | Construction    | Paragraph            | Public          ||
+|                   | May          | MayNRen       | 101     | 101              | Campus Math Tests   | text               | Construction    | Paragraph            | MIT license     ||
 
 
 
@@ -222,6 +221,7 @@ dataset-judul-berita-indonesia/master/detik_news_title.csv).
 <span id="24">12.</span> Yumo Xu and Shay B Cohen. 2018. Stock movement prediction from tweets and historical prices. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 1970–1979.
 
 <span id="25">13.</span> Huizhe Wu, Wei Zhang, Weiwei Shen, and Jun Wang. 2018. Hybrid deep sequential modeling for social text-driven stock prediction. In Proceedings of the 27th ACM international conference on information and knowledge management. 1627–1630.
+<span id="26">14.</span> Zhang, Liwen and Cai, Weige and Liu, Zhaowei and Yang, Zhi and Dai, Wei and Liao, Yujie and Qin, Qianru and Li, Yifei and Liu, Xingyu and Liu, Zhiqiang and others. Fineval: A chinese financial domain knowledge evaluation benchmark for large language models.
 
 
 | **FinTask** | **Dataset** | **Metrics** | **ChatGPT** | **LLaMA2** | **PolyLM** | **SeaLLM-V2** | **LLaMA3** | **PhoGpt** | **Typhoon** | **SeaLLM-V2.5** | **SeaLLM-V3** | **Sailor** | **Qwen2** | **Gemma** |
