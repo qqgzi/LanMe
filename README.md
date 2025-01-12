@@ -1,7 +1,7 @@
 <!-- 标题部分 -->
 <div style="width: 100%; height: 100px; text-align: center; background-color: #f4f4f4; padding: 20px 0;">
    <h1 style="font-size: 50px; font-weight: bold; color: black; line-height: 100px;">
-       SeaFBen: Evaluation Benchmark for Southeast Asia
+       LanMe
    </h1>
 </div>
    Welcome to here, let's get to know LanMe together. </br>
