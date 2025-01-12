@@ -19,16 +19,8 @@ import torch
 from sklearn.metrics.pairwise import cosine_similarity
 '''
 
-_CITATION = """
-@misc{xie2023pixiu,
-      title={PIXIU: A Large Language Model, Instruction Data and Evaluation Benchmark for Finance}, 
-      author={Qianqian Xie and Weiguang Han and Xiao Zhang and Yanzhao Lai and Min Peng and Alejandro Lopez-Lira and Jimin Huang},
-      year={2023},
-      eprint={2306.05443},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}
-"""
+
+
 
 
 class Classification(Task):
