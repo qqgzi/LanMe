@@ -1,7 +1,7 @@
 <!-- 标题部分 -->
 <div style="width: 100%; height: 100px; text-align: center; background-color: #f4f4f4; padding: 20px 0;">
    <h1 style="font-size: 50px; font-weight: bold; color: black; line-height: 100px;">
-       LanMe
+      LanMe: Exploration and Evaluation of Multilingual Large Language Models for Southeast Asian Finance
    </h1>
 </div>
    Welcome to here, let's get to know LanMe together. </br>
@@ -66,13 +66,7 @@
 
 - [Tha] - [Ind]  - [Vie]  - [May]  - [Fil]
 
-**Papers**
-<!--
-- [PIXIU: A Comprehensive Benchmark, Instruction Dataset and Large Language Model for Finance](https://arxiv.org/abs/2306.05443)
-- [The FinBen: An Holistic Financial Benchmark for Large Language Models](https://arxiv.org/abs/2402.12659)
-- [No Language is an Island: Unifying Chinese and English in Financial Large Language Models, Instruction Data, and Benchmarks](https://arxiv.org/abs/2403.06249)
-- [Dólares or Dollars? Unraveling the Bilingual Prowess of Financial LLMs Between Spanish and English](https://arxiv.org/abs/2402.07405)
--->
+
 **Evaluations**:
 
 - [English Evaluation Datasets](https://huggingface.co/collections/TheFinAI/english-evaluation-dataset-658f515911f68f12ea193194) (More details on FinBen section)
@@ -139,13 +133,15 @@
 ### Key Features
 
 
-- **Open Resources**: SeaFBen openly provides Southeast Asian financial datasets included in the evaluation benchmark, featuring custom-built numerical reasoning datasets created in collaboration with Southeast Asian experts, to encourage open research and enhance transparency.
+- **Diversified Low-Resource Language Capabilities**: SeaFllm, designed specifically for Southeast Asian financial LLMs, demonstrates exceptional performance across multiple Southeast Asian languages, particularly in cross-language financial Q\&A scenarios.
 
-- **Multi-task**: The PIXIU benchmark covers a variety of financial tasks, including 5 Southeast Asian languages, 5 Southeast Asian financial tasks, and 20 financial datasets.
+- ** Addressing Low-Resource Financial Data Scarcity**: SeaFitd combines open-source datasets, manually created data, and curated translation and proofreading datasets that remove cultural and contextual biases to marks a significant breakthrough in both diversity and scale.
 
-- **Multi-modality**: The PIXIU benchmark consists of multi-modal financial data, including time-series data from stock movement prediction tasks. It encompasses various types of financial texts, such as reports, news articles, tweets, and regulatory filings.
+- **High-Quality Southeast Asian Financial Prompts**: SeaFitd is the first to showcase a diverse set of high-quality, expert-annotated prompts tailored for low-resource language finance, significantly improving prompt to optimize model performance.
 
-- **Diversity**: Unlike previous benchmarks that primarily focus on financial NLP tasks, SeaFBen's evaluation benchmark includes Southeast Asian financial prediction tasks aligned with real-world scenarios, making it more challenging.
+- **Cross-Language and Generalization Evaluation**:  SeaFBen introduces the unseen datasets to explore the model's generalization capabilities, including the FinNR and FinMD task to ensure balanced evaluation across different languages.
+-  **Open-source Resource Sharing Contribution**: LanMe provides open-source models and evaluation tools, particularly addressing the gap in scarce financial data for low-resource languages, fostering collaborative advancement in financial NLP
+
 
 ---
 
