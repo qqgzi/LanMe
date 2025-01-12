@@ -4,8 +4,8 @@
        SeaFBen: Evaluation Benchmark for Southeast Asia
    </h1>
 </div>
-   Welcome to here, let's get to know SeaFBen together. </br>
-   we introduce SeaFBen, the first open-source benchmark for Southeast Asian multilingual financial tasks. Covering 22,068 samples across 20 datasets from the region’s five most populous countries, SeaFBen evaluates five key tasks: Knowledge Understanding(KU), Investment Tendency(IT), Credit Rating(CR), Financial Decision-making(FD), and Numerical Reasoning(NR). It pioneers multilingual financial task evaluation, regional localization, and introduces five new datasets. Evaluating 12 LLMs reveals significant performance differences.
+   Welcome to here, let's get to know LanMe together. </br>
+   we introduce LanMe (澜湄), the first open-source multilingual framework for Southeast Asian financial NLP. LanMe includes the multilingual instruction dataset SeaFitd, fine-tuned financial LLM SeaFllm, and the evaluation benchmark SeaFBen. SeaFitd covers 26 datasets in 5 Southeast Asian languages (Thai, Indonesian, Vietnamese, Filipino, and Malay), containing 369,849 data points across 5 financial tasks, expanding the breadth and depth of low-resource language financial modeling. Using this, we fine-tune the SeaLLM-7B backbone model to create the innovative financial LLM SeaFllm. We then evaluate vairous models using SeaFBen, the first comprehensive multilingual benchmark, covering unseen, balanced cross-lingual tasks. Experimental results show that existing LLMs struggle with low-resource languages, exhibiting issues catastrophic forgetting and language performance disparities and biases, with SeaFllm outperforming various LLMs, including Southeast Asian's LLMs and large-parameter ChatGPT. Our research highlights the potential of LanMe to fill gaps in financial NLP for Southeast Asian, offering high-quality annotated datasets, evaluation tools, and models
 <!-- 作者部分 -->
 
    
