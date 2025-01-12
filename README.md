@@ -151,35 +151,6 @@ In this section, we provide a detailed performance analysis of FinMA compared to
 
 ### Tasks
 
-
-| Task | Language | Dataset         | Task                     | Test | Evaluation          | License      | Paper      |
-|------|----------|-----------------|--------------------------|------|---------------------|--------------|------------|
-| FinKU   | Tha      | Exam           | financial exam           | 631  | Accuracy, F1  | Apache-2.0   |[[3]](#3)  |
-|      |Tha      | ThaEval   | financial exam        | 1,999| Accuracy, Macro F1  | CC BY-NC 4.0 |  |
-|      | Ind      | AppRevs   | rating prediction        | 1,999| Accuracy, Macro F1  | CC BY-NC 4.0 | [[4]](#4)  |
-|      | Ind      | URLSum       | url summarization        | 2,834| ROUGE, BERTScore    | Public       | [[5]](#5)  |
-|      | Ind      | FinTopic       | Mandiri App Reviews        | 2,834| ROUGE, BERTScore    | Public       |   |
-| FinIS   | Ind      |FinSent      | sentiment analysis       | 2,000| F1, Accuracy        | Apache-2.0   | [[6]](#6)  |
-|      | Fil      | FilSA       | sentiment analysis       | 233  | F1, Accuracy        | MIT License  | [[2]](#2)  |
-|      | May      | MayFPB          | sentiment analysis       | 970  | F1, Accuracy        | MIT License  | [[1]](#1)  |
-| FinCR   | Ind      | IndCCFraud      | fraud detection          | 2,098| F1, MCC             | Public       |[[10]](#10)  |
-|      | Vie      | VieCRACCF       | fraud detection          | 2,279| F1, MCC             | (DbCL) v1.0  | [[7]](#7)  |
-|      | Fil      | FilLenClub  | credit scoring           | 2,691| F1, MCC             | CC0 1.0      | [[10]](#10)  |
-|      | May      | MayAustralian   | credit scoring           | 133  | F1, MCC             | CC BY 4.0    | [[9]](#9)|
-| DinDM   | Ind      | IndCikm         | stock movement prediction| 1,139| F1, Accuracy        | Public       | [[13]](#13) |
-|      | Vie      | VieBigdata22      | stock movement prediction| 1,139| F1, Accuracy        | Public       |[[12]](#12))|
-|      | Fil      | FilACL18        | stock movement prediction| 1,139| F1, Accuracy        | MIT License  |  [[12]](#12))|
-|      | May      | MayACL18        | stock movement prediction| 1,139| F1, Accuracy        | MIT License  |  [[12]](#12)|
-|      | Tha      | ThaStockA       | stock movement prediction| 1,139| F1, Accuracy        | Public       |[[8]](#8) |
-| FinNR   | Tha      | ThaNRen          | quantitative reasoning   | 101  | EM Accuracy         | Public       | |
-|      | Ind      | IndNRen          | quantitative reasoning   | 101  | EM Accuracy         | Public       | |
-|      | May      | MayNRen          | quantitative reasoning   | 101  | EM Accuracy         | Public       ||
-|      | Fil      | FilNRen          | quantitative reasoning   | 101  | EM Accuracy         | Public       | |
-|      | Vie      | VieNRen          | quantitative reasoning   | 101  | EM Accuracy         | Public       ||
-
-
-
-
 | **Financial Task** | **Language** | **Dataset**   | **Raw**  | **Instruction**  | **Data Types**      | **Modalities**     | **Source**      | **Textual Hierarchy** | **License**     | **Paper**|
 |-------------------|--------------|---------------|---------|------------------|---------------------|--------------------|-----------------|-----------------------|-----------------|-----------------|
 | **FinKU**         | Tha          | Exam          | 158     | 3159             | financial exam      | text, table        | Collection      | Sentence             | Apache-2.0      |[[3]](#3)  |
@@ -250,6 +221,7 @@ dataset-judul-berita-indonesia/master/detik_news_title.csv).
 <span id="24">12.</span> Yumo Xu and Shay B Cohen. 2018. Stock movement prediction from tweets and historical prices. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 1970–1979.
 
 <span id="25">13.</span> Huizhe Wu, Wei Zhang, Weiwei Shen, and Jun Wang. 2018. Hybrid deep sequential modeling for social text-driven stock prediction. In Proceedings of the 27th ACM international conference on information and knowledge management. 1627–1630.
+<span id="26">14.</span> Zhang, Liwen and Cai, Weige and Liu, Zhaowei and Yang, Zhi and Dai, Wei and Liao, Yujie and Qin, Qianru and Li, Yifei and Liu, Xingyu and Liu, Zhiqiang and others. Fineval: A chinese financial domain knowledge evaluation benchmark for large language models.
 
 
 | **FinTask** | **Dataset** | **Metrics** | **ChatGPT** | **LLaMA2** | **PolyLM** | **SeaLLM-V2** | **LLaMA3** | **PhoGpt** | **Typhoon** | **SeaLLM-V2.5** | **SeaLLM-V3** | **Sailor** | **Qwen2** | **Gemma** |
