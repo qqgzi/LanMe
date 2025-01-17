@@ -325,7 +325,7 @@ Before evaluation, please download [BART checkpoint](https://drive.google.com/u/
 
 1. Huggingface Transformer
 
-   To evaluate a model hosted on the HuggingFace Hub (for instance, finma-7b-full), use this command:
+   To evaluate a model hosted on the HuggingFace Hub, use this command:
 
 ```bash
 python eval.py \
