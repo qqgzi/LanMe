@@ -147,8 +147,7 @@
 
 ## SeaFBen Evalution Benchmark result: The evaluation results of 13 representative large models on SeaFBen.
 
-In this section, we provide a detailed performance analysis of FinMA compared to other leading models, including ChatGPT, Qwen2-7B, and BloombergGPT et al. For this analysis, we've chosen a range of tasks and metrics that span various aspects of financial Natural Language Processing and financial prediction. All model results of FinBen can be found on our [leaderboard](https://huggingface.co/spaces/TheFinAI/flare)!
-
+In this section, we provide a detailed performance analysis of SeaFllm compared to other leading models, including ChatGPT, Qwen2-7B, and SeaLLMs et al. For this analysis, we've chosen a range of tasks and metrics that span various aspects of financial Natural Language Processing and financial prediction.
 ### Tasks
 
 | **Financial Task** | **Language** | **Dataset**   | **Raw**  | **Instruction**  | **Data Types**      | **Modalities**     | **Source**      | **Textual Hierarchy** | **License**     | **Paper**|
