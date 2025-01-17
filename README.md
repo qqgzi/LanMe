@@ -284,8 +284,8 @@ dataset-judul-berita-indonesia/master/detik_news_title.csv).
 
 ##### Locally install
 ```bash
-git clone https://github.com/qqgzi/SeaFBen.git --recursive
-cd SeaFBen
+git clone https://github.com/qqgzi/LanMe.git --recursive
+cd LanMe
 pip install -r requirements.txt
 cd src/financial-evaluation
 pip install -e .[multilingual]
@@ -294,7 +294,7 @@ pip install -e .[multilingual]
 ```bash
 sudo bash scripts/docker_run.sh
 ```
-Above command starts a docker container, you can modify `docker_run.sh` to fit your environment. We provide pre-built image by running `sudo docker pull tothemoon/pixiu:latest`
+Above command starts a docker container, you can modify `docker_run.sh` to fit your environment. We provide pre-built image by running `sudo docker pull tothemoon/LanMe:latest`
 
 ```bash
 docker run --gpus all --ipc=host --ulimit memlock=-1 --ulimit stack=67108864 \
@@ -304,12 +304,12 @@ docker run --gpus all --ipc=host --ulimit memlock=-1 --ulimit stack=67108864 \
     --env all_proxy=$all_proxy \
     --env HF_HOME=$hf_home \
     -it [--rm] \
-    --name SeaFBen \
-    -v $SeaFBen_path:$SeaFBen_path \
+    --name LanMe \
+    -v $LanMe_path:$LanMe_path \
     -v $hf_home:$hf_home \
     -v $ssh_pub_key:/root/.ssh/authorized_keys \
     -w $workdir \
-    $docker_user/pixiu:$tag \
+    $docker_user/LanMe:$tag \
     [--sshd_port 2201 --cmd "echo 'Hello, world!' && /bin/bash"]
 ```
 Arguments explain:
@@ -330,8 +330,8 @@ Before evaluation, please download [BART checkpoint](https://drive.google.com/u/
 ```bash
 python eval.py \
     --model "hf-causal-llama" \
-    --model_args "use_accelerate=True,pretrained=TheFinAI/finma-7b-full,tokenizer=TheFinAI/finma-7b-full,use_fast=False" \
-    --tasks "flare_ner,flare_sm_acl,flare_fpb"
+    --model_args "use_accelerate=True,pretrained=PolyLM-13B,tokenizer=PolyLM-13B,use_fast=False" \
+    --tasks "LanMe_Exam,LanMe_FinSent"
 ```
 
 More details can be found in the [lm_eval](https://github.com/EleutherAI/lm-evaluation-harness) documentation.
@@ -339,13 +339,13 @@ More details can be found in the [lm_eval](https://github.com/EleutherAI/lm-eval
 2. Commercial APIs
 
 
-Please note, for tasks such as NA, the automated evaluation is based on a specific pattern. This might fail to extract relevant information in zero-shot settings, resulting in relatively lower performance compared to previous human-annotated results.
+Please note, for tasks such as ThaNA, the automated evaluation is based on a specific pattern. This might fail to extract relevant information in zero-shot settings, resulting in relatively lower performance compared to previous human-annotated results.
 
 ```bash
 export OPENAI_API_SECRET_KEY=YOUR_KEY_HERE
 python eval.py \
-    --model gpt-4 \
-    --tasks SeaFBen_NA
+    --model chatgpt \
+    --tasks LanMe_ThaNA
 ```
 
 3. Self-Hosted Evaluation
@@ -366,7 +366,7 @@ python data/*/evaluate.py
 
 ### Create new tasks
 
-Creating a new task for SeaFBen involves creating a Huggingface dataset and implementing the task in a Python file. This guide walks you through each step of setting up a new task using the SeaFBen framework.
+Creating a new task for LanMe involves creating a Huggingface dataset and implementing the task in a Python file. This guide walks you through each step of setting up a new task using the LanMe framework.
 
 #### Creating your dataset in Huggingface
 
