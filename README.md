@@ -135,7 +135,7 @@
 
 - **Diversified Low-Resource Language Capabilities**: SeaFllm, designed specifically for Southeast Asian financial LLMs, demonstrates exceptional performance across multiple Southeast Asian languages, particularly in cross-language financial Q\&A scenarios.
 
-- ** Addressing Low-Resource Financial Data Scarcity**: SeaFitd combines open-source datasets, manually created data, and curated translation and proofreading datasets that remove cultural and contextual biases to marks a significant breakthrough in both diversity and scale.
+- **Addressing Low-Resource Financial Data Scarcity**: SeaFitd combines open-source datasets, manually created data, and curated translation and proofreading datasets that remove cultural and contextual biases to marks a significant breakthrough in both diversity and scale.
 
 - **High-Quality Southeast Asian Financial Prompts**: SeaFitd is the first to showcase a diverse set of high-quality, expert-annotated prompts tailored for low-resource language finance, significantly improving prompt to optimize model performance.
 
