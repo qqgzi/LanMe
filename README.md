@@ -47,7 +47,7 @@
 <div style="font-size: 18px; margin-bottom: 20px;margin-top:20px">
    <img src="https://github.com/qqgzi/LanMe/blob/master/asset/%E4%B8%93%E5%AE%B6%E6%95%99%E6%8E%88.svg?raw=true" 
    alt="专家" style="float: left; width: 25px; height: 25px; margin-right: 10px;">
-    <a target='_blank' style="color: #2980B9; text-decoration: none; font-weight: bold;">Kun Yue</a><br />
+    <a target='_blank' style="color: #2980B9; text-decoration: none; font-weight: bold;">Kun Yue(Corresponding author)</a><br />
     <span style="font-size: 16px; color: #555;"> Yunnan University</span>
 </div>
     
