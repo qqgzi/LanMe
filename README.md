@@ -14,35 +14,46 @@
 <div align="left" style="margin-top: 40px;">
 
 <div style="font-size: 18px; margin-bottom: 20px;margin-top:20px">
-   <img src="https://github.com/qqgzi/SeaFBen/blob/master/asset/%E4%B8%93%E5%AE%B6%E6%95%99%E6%8E%88.svg?raw=true" 
+   <img src="https://github.com/qqgzi/LanMe/blob/master/asset/%E4%B8%93%E5%AE%B6%E6%95%99%E6%8E%88.svg?raw=true" 
    alt="专家" style="float: left; width: 25px; height: 25px; margin-right: 10px;">
     <a target='_blank' style="color: #2980B9; text-decoration: none; font-weight: bold;">Gang Hu</a><br />
     <span style="font-size: 16px; color: #555;">Cross-lingual Intelligent Information Processing, Yunnan University</span>
 </div>
-    
-
 <div style="font-size: 18px; margin-bottom: 20px;margin-top:20px">
    <img src="https://github.com/qqgzi/SeaFBen/blob/master/asset/%E5%AD%A6%E7%94%9F.svg?raw=true" 
          alt="学生" style="float: left; width: 25px; height: 25px; margin-right: 10px;">
    <a target='_blank' style="color: #2980B9; text-decoration: none; font-weight: bold;">Qingqing Wang</a><br />
    <span style="font-size: 16px; color: #555;">Graduate Student at the School of Information, Yunnan University</span>
 </div>
+<div style="font-size: 18px; margin-bottom: 20px;margin-top:20px">
+   <img src="https://github.com/qqgzi/LanMe/blob/master/asset/%E4%B8%93%E5%AE%B6%E6%95%99%E6%8E%88.svg?raw=true" 
+   alt="专家" style="float: left; width: 25px; height: 25px; margin-right: 10px;">
+    <a target='_blank' style="color: #2980B9; text-decoration: none; font-weight: bold;">Qianqian Xie</a><br />
+    <span style="font-size: 16px; color: #555;"> The Fin AI</span>
+</div>
+<div style="font-size: 18px; margin-bottom: 20px;margin-top:20px">
+   <img src="https://github.com/qqgzi/LanMe/blob/master/asset/%E4%B8%93%E5%AE%B6%E6%95%99%E6%8E%88.svg?raw=true" 
+   alt="专家" style="float: left; width: 25px; height: 25px; margin-right: 10px;">
+    <a target='_blank' style="color: #2980B9; text-decoration: none; font-weight: bold;">Min Peng</a><br />
+    <span style="font-size: 16px; color: #555;"> Wuhan University</span>
+</div>
 
 <div style="font-size: 18px; margin-bottom: 20px;margin-top:20px">
-  <img src="https://github.com/qqgzi/SeaFBen/blob/master/asset/%E5%AD%A6%E7%94%9F.svg?raw=true" 
-         alt="学生" style="float: left; width: 25px; height: 25px; margin-right: 10px;">
-  <a target='_blank' style="color: #2980B9; text-decoration: none; font-weight: bold;">Kang Wang</a><br />
-   <span style="font-size: 16px; color: #555;">Graduate Student at the School of Information, Yunnan University</span>
- </div>   
-  
-<div style="font-size: 18px; margin-bottom: 20px;margin-top:20px">
-   
-   <img src="https://github.com/qqgzi/SeaFBen/blob/master/asset/%E5%AD%A6%E7%94%9F.svg?raw=true" 
-         alt="学生" style="float: left; width: 25px; height: 25px; margin-right: 10px;">
-    <a target='_blank' style="color: #2980B9; text-decoration: none; font-weight: bold;">Ke Qin</a><br />
-    <span style="font-size: 16px; color: #555;">Graduate Student at the School of Information, Yunnan University</span>
-    
+   <img src="https://github.com/qqgzi/LanMe/blob/master/asset/%E4%B8%93%E5%AE%B6%E6%95%99%E6%8E%88.svg?raw=true" 
+   alt="专家" style="float: left; width: 25px; height: 25px; margin-right: 10px;">
+    <a target='_blank' style="color: #2980B9; text-decoration: none; font-weight: bold;">Lei Shi</a><br />
+    <span style="font-size: 16px; color: #555;"> Yunnan Normal University</span>
 </div>
+<div style="font-size: 18px; margin-bottom: 20px;margin-top:20px">
+   <img src="https://github.com/qqgzi/LanMe/blob/master/asset/%E4%B8%93%E5%AE%B6%E6%95%99%E6%8E%88.svg?raw=true" 
+   alt="专家" style="float: left; width: 25px; height: 25px; margin-right: 10px;">
+    <a target='_blank' style="color: #2980B9; text-decoration: none; font-weight: bold;">Kun Yue</a><br />
+    <span style="font-size: 16px; color: #555;"> Yunnan University</span>
+</div>
+    
+
+
+
 
 <!-- 底部图片部分
 <div align="center" style="margin-top: 40px;">
