@@ -78,45 +78,48 @@
 - [Tha] - [Ind]  - [Vie]  - [May]  - [Fil]
 
 
-**Evaluations**:
 
-- [English Evaluation Datasets](https://huggingface.co/collections/TheFinAI/english-evaluation-dataset-658f515911f68f12ea193194) (More details on FinBen section)
-- [Spanish Evaluation Datasets](https://huggingface.co/collections/TheFinAI/spanish-evaluation-datasets-65e5855900680b19bc83e03d)
-- [Chinese Evaluation Datasets](https://huggingface.co/collections/TheFinAI/chinese-evaluation-datasets-65e5851af7daaa71c1c59902)
 
-> Sentiment Analysis
+> FinKU(financial knowledge understanding)
 
-- [FPB (en_fpb)](https://huggingface.co/datasets/TheFinAI/en-fpb)
-- [FIQASA (flare_fiqasa)](https://huggingface.co/datasets/TheFinAI/en-fpb)
-- [FOMC (flare_fomc)](https://huggingface.co/datasets/TheFinAI/flare-fomc)
-- [SemEval-2017 Task5 (flare_tsa)](https://huggingface.co/datasets/TheFinAI/flare-tsa)
+- [Exam (tha)])(https://huggingface.co/datasets/LanMe/Exam)
+- [ThaEval (tha)](https://huggingface.co/datasets/LanMe/ThaEval)
+- [ThaNA (tha)](https://huggingface.co/datasets/LanMe/ThaNA)
+- [urlSum](https://huggingface.co/datasets/LanMe/UrlSum)
+- [AppRevs](https://huggingface.co/datasets/LanMe/AppRevs)
+- [FinTopic](https://huggingface.co/datasets/LanMe/FinTopic)
+- [VieFinRED](https://huggingface.co/datasets/LanMe/VieFinRED)
 
-> Classification
+  
+> financial investment tendency(FinIT)
 
-- [Headlines (flare_headlines)](https://huggingface.co/datasets/TheFinAI/flare-headlines)
-- [FinArg ECC Task1 (flare_finarg_ecc_auc)](https://huggingface.co/datasets/TheFinAI/flare-finarg-ecc-auc)
-- [FinArg ECC Task2 (flare_finarg_ecc_arc)](https://huggingface.co/datasets/TheFinAI/flare-finarg-ecc-arc)
-- [CFA (flare_cfa)](https://huggingface.co/datasets/TheFinAI/flare-cfa)
-- [MultiFin EN (flare_multifin_en)](https://huggingface.co/datasets/TheFinAI/flare-multifin-en)
-- [M&A (flare_ma)](https://huggingface.co/datasets/TheFinAI/flare-ma)
-- [MLESG EN (flare_mlesg)](https://huggingface.co/datasets/TheFinAI/flare-mlesg)
+- [FinSent(Ind)](https://huggingface.co/datasets/LanMe/FinSent)
+- [FilSA(Fil)](https://huggingface.co/datasets/LanMe/FilSA)
+- [MayFPB(May)](https://huggingface.co/datasets/LanMe/MayFPB)
+- [FilHeadlines(Fil)](https://huggingface.co/datasets/LanMe/FilHeadlines)
+- [VieNL(Vie)](https://huggingface.co/datasets/LanMe/VieNL)
 
-> Knowledge Extraction
+> financial credit rating(FinCR)
 
-- [NER (flare_ner)](https://huggingface.co/datasets/TheFinAI/flare-ner)
-- [Finer Ord (flare_finer_ord)](https://huggingface.co/datasets/TheFinAI/flare-finer-ord)
-- [FinRED (flare_finred)](https://huggingface.co/datasets/TheFinAI/flare-finred)
-- [FinCausal20 Task1 (flare_causal20_sc)](https://huggingface.co/datasets/TheFinAI/flare-causal20-sc)
-- [FinCausal20 Task2 (flare_cd)](https://huggingface.co/datasets/TheFinAI/flare-cd)
+- [IndCCFraud (Ind)](https://huggingface.co/datasets/LanMe/IndCCFraud)
+- [FilLenClub(Fil)](https://huggingface.co/datasets/LanMe/FilLenClub)
+- [VieCRACCF (Vie)](https://huggingface.co/datasets/LanMe/VieCRACCF)
+- [MayAustralian (May)](https://huggingface.co/datasets/LanMe/MayAustralian)
 
-> Number Understanding
+> financial market decision-making (FinDM)
 
-- [FinQA (flare_finqa)](https://huggingface.co/datasets/TheFinAI/flare-finqa)
-- [TATQA (flare_tatqa)](https://huggingface.co/datasets/TheFinAI/flare-tatqa)
-- [FNXL (flare_fnxl)](https://huggingface.co/datasets/TheFinAI/flare-fnxl)
-- [FSRL (flare_fsrl)](https://huggingface.co/datasets/TheFinAI/flare-fsrl)
+- [ThaStockA (Tha)](https://huggingface.co/datasets/LanMe/ThaStockA)
+- [IndCIKM18(Ind)](https://huggingface.co/datasets/LanMe/IndCIKM18)
+- [FilACL18(Fil)](https://huggingface.co/datasets/LanMe/FilACL18)
+- [VieBigdata (Vie)](https://huggingface.co/datasets/LanMe/VieBigdata)
+- [MayACl18(May)](https://huggingface.co/datasets/LanMe/MayACL18)
 
-> Text Summarization
+> financial numerical reasoning (FinNR)
+- [ThaNRen (Tha)](https://huggingface.co/datasets/LanMe/ThaNRen)
+- [IndNRen(Ind)](https://huggingface.co/datasets/LanMe/IndNRen)
+- [FilNRen(Fil)](https://huggingface.co/datasets/LanMe/FilNRen)
+- [VieNRen (Vie)](https://huggingface.co/datasets/LanMe/VieNRen)
+- [MayNRen(May)](https://huggingface.co/datasets/LanMe/MayNRen)
 
 - [ECTSUM (flare_ectsum)](https://huggingface.co/datasets/TheFinAI/flare-ectsum)
 - [EDTSUM (flare_edtsum)](https://huggingface.co/datasets/TheFinAI/flare-edtsum)
