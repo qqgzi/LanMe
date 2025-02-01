@@ -133,7 +133,7 @@
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
   <!-- 第一行内容 -->
-  <div style="flex: 1 1 30%; min-width: 300px;">
+  <div style="flex: 1 1 30%; min-width: 100px;">
     <strong>FinKU (financial knowledge understanding)</strong><br>
     - <a href="https://huggingface.co/datasets/LanMe/Exam">Exam (tha)</a><br>
     - <a href="https://huggingface.co/datasets/LanMe/ThaEval">ThaEval (tha)</a><br>
@@ -144,7 +144,7 @@
     - <a href="https://huggingface.co/datasets/LanMe/VieFinRED">VieFinRED (Vie)</a><br>
   </div>
 
-  <div style="flex: 1 1 30%; min-width: 300px;">
+  <div style="flex: 1 1 30%; min-width: 100px;">
     <strong>FinIT (financial investment tendency)</strong><br>
     - <a href="https://huggingface.co/datasets/LanMe/FinSent">FinSent (Ind)</a><br>
     - <a href="https://huggingface.co/datasets/LanMe/FilSA">FilSA (Fil)</a><br>
@@ -153,7 +153,7 @@
     - <a href="https://huggingface.co/datasets/LanMe/VieNL">VieNL (Vie)</a><br>
   </div>
 
-  <div style="flex: 1 1 30%; min-width: 300px;">
+  <div style="flex: 1 1 30%; min-width: 100px;">
     <strong>FinCR (financial credit rating)</strong><br>
     - <a href="https://huggingface.co/datasets/LanMe/IndCCFraud">IndCCFraud (Ind)</a><br>
     - <a href="https://huggingface.co/datasets/LanMe/FilLenClub">FilLenClub (Fil)</a><br>
@@ -162,7 +162,7 @@
   </div>
 
   <!-- 第二行内容 -->
-  <div style="flex: 1 1 30%; min-width: 300px;">
+  <div style="flex: 1 1 30%; min-width: 100px;">
     <strong>FinDM (financial decision-making)</strong><br>
     - <a href="https://huggingface.co/datasets/LanMe/ThaStockA">ThaStockA (Tha)</a><br>
     - <a href="https://huggingface.co/datasets/LanMe/IndCIKM18">IndCIKM18 (Ind)</a><br>
@@ -171,7 +171,7 @@
     - <a href="https://huggingface.co/datasets/LanMe/MayACL18">MayACL18 (May)</a><br>
   </div>
 
-  <div style="flex: 1 1 30%; min-width: 300px;">
+  <div style="flex: 1 1 30%; min-width: 100px;">
     <strong>FinNR (financial numerical reasoning)</strong><br>
     - <a href="https://huggingface.co/datasets/LanMe/ThaNRen">ThaNRen (Tha)</a><br>
     - <a href="https://huggingface.co/datasets/LanMe/IndNRen">IndNRen (Ind)</a><br>
