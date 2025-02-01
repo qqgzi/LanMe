@@ -130,12 +130,9 @@
 - [FilNRen(Fil)](https://huggingface.co/datasets/LanMe/FilNRen)
 - [VieNRen (Vie)](https://huggingface.co/datasets/LanMe/VieNRen)
 - [MayNRen(May)](https://huggingface.co/datasets/LanMe/MayNRen)
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
-  <div>
-    <strong>Languages</strong><br>
-    - [Tha] - [Ind] - [Vie] - [May] - [Fil]
-  </div>
 
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
+  <!-- 第一行内容 -->
   <div>
     <strong>FinKU (financial knowledge understanding)</strong><br>
     - <a href="https://huggingface.co/datasets/LanMe/Exam">Exam (tha)</a><br>
@@ -164,6 +161,7 @@
     - <a href="https://huggingface.co/datasets/LanMe/MayAustralian">MayAustralian (May)</a><br>
   </div>
 
+  <!-- 第二行内容 -->
   <div>
     <strong>FinDM (financial decision-making)</strong><br>
     - <a href="https://huggingface.co/datasets/LanMe/ThaStockA">ThaStockA (Tha)</a><br>
@@ -182,7 +180,6 @@
     - <a href="https://huggingface.co/datasets/LanMe/MayNRen">MayNRen (May)</a><br>
   </div>
 </div>
-
 
 
 ### Key Features
