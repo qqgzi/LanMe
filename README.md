@@ -166,18 +166,15 @@ In this section, we provide a detailed performance analysis of SeaFllm compared 
 |-------------------|--------------|---------------|---------|------------------|---------------------|--------------------|-----------------|-----------------------|-----------------|-----------------|
 | **FinKU**         | Tha          | Exam          | 158     | 3159             | financial exam      | text, table        | Collection      | Sentence             | Apache-2.0      |[[3]](#3)  |
 |                   |              | ThaEval       | 1,115   | 1,113            | financial exam      | text               | Annotation      | Paragraph            | Apache-2.0      |[[15]](#27)  |
-|                   |              | ThaNA         | 32,400  | 32,400           | News, Announcement  | text               | Annotation      | Paragraph            | Public          |[[16]]#28)  |
+|                   |              | ThaNA         | 32,400  | 32,400           | News, Announcement  | text               | Annotation      | Paragraph            | Public          |[[16]](#28) |
 |                   | Ind          | UrlSum        | 14,168  | 14,168           | Indonesian News URLs| table              | Collection      | Paragraph            | Public          | [[5]](#5)  |
 |                   |              | AppRevs       | 154,637 | 153,214          | Mandiri App Reviews | text               | Collection      | Sentence             | CC BY-NC 4.0    |[[4]](#4)  |
-|                   |              | FinTopic      | 21,120  | 21,105           | News Articles       | text               | Collection      | Sentence             | Apache-2.0      |[[17]]
-[Link](#29)  |
+|                   |              | FinTopic      | 21,120  | 21,105           | News Articles       | text               | Collection      | Sentence             | Apache-2.0      |[[17]](#29)  |
 |                   | Vie          | VieFinRED     | 1,063   | 1,063            | Earning Call Transcripts | text             | Annotation      | Paragraph            | Public          |[[20]]
 | **FinIT**         | Ind          | FinSent       | 2,274   | 22,740           | News Headlines      | text, table        | Collection      | Sentence             | Apache-2.0      |[[6]](#6)  |
 |                   | Fil          | FilSA         | 1,173   | 1,171            | News Headlines, Tweets | text             | Annotation      | Sentence             | Public          |[[2]](#2)  |
-|                   |              | FilHeadlines  | 11,412  | 10,256           | News Headlines      | text               | Annotation      | Sentence             | CC BY-SA 3.0    |[[18]]
-(#30)  |
-|                   | Vie          | VieNL         | 7,955   | 7,938            | News Articles       | text               | Annotation      | Paragraph            | Public          |[[19]]
-(#31)  |
+|                   |              | FilHeadlines  | 11,412  | 10,256           | News Headlines      | text               | Annotation      | Sentence             | CC BY-SA 3.0    |[[18]](#30)  |
+|                   | Vie          | VieNL         | 7,955   | 7,938            | News Articles       | text               | Annotation      | Paragraph            | Public          |[[19]](#31)   |
 |                   | May          | MayFPB        | 4,845   | 4,845            | Economic News       | text               | Annotation      | Paragraph            | CC BY-SA 3.0    |[[1]](#1)  |
 | **FinCR**         | Ind          | IndCCFraud    | 10,485  | 10,485           | Transaction Samples | table              | Annotation      | Paragraph            | Public          |[[10]](#10)  |
 |                   | Fil          | FilLenClub    | 13,452  | 13,452           | Loan Transactions   | table              | Annotation      | Discourse            | CC0 1.0        |[[10]](#10)  |
