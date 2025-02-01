@@ -165,7 +165,8 @@ In this section, we provide a detailed performance analysis of SeaFllm compared 
 | **Financial Task** | **Language** | **Dataset**   | **Raw**  | **Instruction**  | **Data Types**      | **Modalities**     | **Source**      | **Textual Hierarchy** | **License**     | **Paper**|
 |-------------------|--------------|---------------|---------|------------------|---------------------|--------------------|-----------------|-----------------------|-----------------|-----------------|
 | **FinKU**         | Tha          | Exam          | 158     | 3159             | financial exam      | text, table        | Collection      | Sentence             | Apache-2.0      |[[3]](#3)  |
-|                   |              | ThaEval       | 1,115   | 1,113            | financial exam      | text               | Annotation      | Paragraph            | Apache-2.0      |[[15]] (#27)  |
+|                   |              | ThaEval       | 1,115   | 1,113            | financial exam      | text               | Annotation      | Paragraph            | Apache-2.0      |[[15]] 
+(#27)  |
 |                   |              | ThaNA         | 32,400  | 32,400           | News, Announcement  | text               | Annotation      | Paragraph            | Public          |[[16]]
 (#28)  |
 |                   | Ind          | UrlSum        | 14,168  | 14,168           | Indonesian News URLs| table              | Collection      | Paragraph            | Public          | [[5]](#5)  |
@@ -239,15 +240,15 @@ dataset-judul-berita-indonesia/master/detik_news_title.csv).
 
 <span id="26">14.</span> Zhang, Liwen and Cai, Weige and Liu, Zhaowei and Yang, Zhi and Dai, Wei and Liao, Yujie and Qin, Qianru and Li, Yifei and Liu, Xingyu and Liu, Zhiqiang and others. Fineval: A chinese financial domain knowledge evaluation benchmark for large language models.
 
-<span id="27">15.</span>Zhang, Liwen, Cai, Weige, Liu, Zhaowei, Yang, Zhi, Dai, Wei, Liao, Yujie, Qin, Qianru, Li, Yifei, Liu, Xingyu, Liu, Zhiqiang, et al. Fineval: A Chinese Financial Domain Knowledge Evaluation Benchmark for Large Language Models. *arXiv Preprint arXiv:2308.09975*, 2023. [Link to Paper](https://arxiv.org/abs/2308.09975)
+<span id="27">15.</span> Zhang, Liwen, Cai, Weige, Liu, Zhaowei, Yang, Zhi, Dai, Wei, Liao, Yujie, Qin, Qianru, Li, Yifei, Liu, Xingyu, Liu, Zhiqiang, et al. Fineval: A Chinese Financial Domain Knowledge Evaluation Benchmark for Large Language Models. *arXiv Preprint arXiv:2308.09975*, 2023. [Link to Paper](https://arxiv.org/abs/2308.09975)
 
-<span id="28">16.</span>Lu, Dakuan, Wu, Hengkui, Liang, Jiaqing, Xu, Yipei, He, Qianyu, Geng, Yipeng, Han, Mengkun, Xin, Yingsi, Xiao, Yanghua. Bbt-Fin: Comprehensive Construction of Chinese Financial Domain Pre-trained Language Model, Corpus and Benchmark. *arXiv Preprint arXiv:2302.09432*, 2023. [Link to Paper](https://arxiv.org/abs/2302.09432)
+<span id="28">16.</span> Lu, Dakuan, Wu, Hengkui, Liang, Jiaqing, Xu, Yipei, He, Qianyu, Geng, Yipeng, Han, Mengkun, Xin, Yingsi, Xiao, Yanghua. Bbt-Fin: Comprehensive Construction of Chinese Financial Domain Pre-trained Language Model, Corpus and Benchmark. *arXiv Preprint arXiv:2302.09432*, 2023. [Link to Paper](https://arxiv.org/abs/2302.09432)
 
-<span id="29">17.</span>Maharani, Ni Putu Intan, Purwarianti, Ayu, Yustiawan, Yoga, Rochim, Fauzy Caesar. Domain-Specific Language Model Post-Training for Indonesian Financial NLP. 2023 International Conference on Electrical Engineering and Informatics (ICEEI), IEEE, 2023, pp. 1–6.
+<span id="29">17.</span> Maharani, Ni Putu Intan, Purwarianti, Ayu, Yustiawan, Yoga, Rochim, Fauzy Caesar. Domain-Specific Language Model Post-Training for Indonesian Financial NLP. 2023 International Conference on Electrical Engineering and Informatics (ICEEI), IEEE, 2023, pp. 1–6.
 
-<span id ="30">18.</span>Sinha, Ankur, and Khandait, Tanmay. Impact of news on the commodity market: Dataset and results. *Advances in Information and Communication: Proceedings of the 2021 Future of Information and Communication Conference (FICC)*, Springer, 2021, pp. 589–601.
+<span id ="30">18.</span> Sinha, Ankur, and Khandait, Tanmay. Impact of news on the commodity market: Dataset and results. *Advances in Information and Communication: Proceedings of the 2021 Future of Information and Communication Conference (FICC)*, Springer, 2021, pp. 589–601.
 
-<span id="31">19.</span>Lu, Dakuan, Wu, Hengkui, Liang, Jiaqing, Xu, Yipei, He, Qianyu, Geng, Yipeng, Han, Mengkun, Xin, Yingsi, Xiao, Yanghua. Bbt-fin: Comprehensive construction of chinese financial domain pre-trained language model, corpus and benchmark. *arXiv preprint arXiv:2302.09432*, 2023.
+<span id="31">19.</span> Lu, Dakuan, Wu, Hengkui, Liang, Jiaqing, Xu, Yipei, He, Qianyu, Geng, Yipeng, Han, Mengkun, Xin, Yingsi, Xiao, Yanghua. Bbt-fin: Comprehensive construction of chinese financial domain pre-trained language model, corpus and benchmark. *arXiv preprint arXiv:2302.09432*, 2023.
 
 
 
