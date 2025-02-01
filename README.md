@@ -97,10 +97,10 @@
 - [Exam (tha)])(https://huggingface.co/datasets/LanMe/Exam)
 - [ThaEval (tha)](https://huggingface.co/datasets/LanMe/ThaEval)
 - [ThaNA (tha)](https://huggingface.co/datasets/LanMe/ThaNA)
-- [urlSum](https://huggingface.co/datasets/LanMe/UrlSum)
-- [AppRevs](https://huggingface.co/datasets/LanMe/AppRevs)
-- [FinTopic](https://huggingface.co/datasets/LanMe/FinTopic)
-- [VieFinRED](https://huggingface.co/datasets/LanMe/VieFinRED)
+- [urlSum (Ind)](https://huggingface.co/datasets/LanMe/UrlSum)
+- [AppRevs (Ind)](https://huggingface.co/datasets/LanMe/AppRevs)
+- [FinTopic (Ind)](https://huggingface.co/datasets/LanMe/FinTopic)
+- [VieFinRED(Vie)](https://huggingface.co/datasets/LanMe/VieFinRED)
 
   
 > financial investment tendency(FinIT)
