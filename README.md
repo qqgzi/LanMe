@@ -135,6 +135,64 @@
 - [MayNRen(May)](https://huggingface.co/datasets/LanMe/MayNRen)
 
 
+<div style="display: flex; align-items: flex-start;">
+  <!-- 图片部分 -->
+  <div style="flex: 0 0 400px; margin-right: 20px;">
+    <img src="https://github.com/qqgzi/LanMe/blob/master/asset/map.jpg" 
+         alt="SeaFBen's evaluation benchmark" 
+         style="width: 100%; height: auto;">
+  </div>
+  
+  <!-- 文本部分 -->
+  <div style="flex: 1;">
+    <strong>SeaFBen's evaluation benchmark includes 26 datasets across 5 Southeast Asian low-resource languages (Thai, Indonesian, Vietnamese, Filipino, and Malay), covering 5 financial tasks: FinKU, FinIT, FinCR, FinDM, and FinNR</strong>
+    <br><br>
+
+    **Languages**
+    - [Tha] - [Ind] - [Vie] - [May] - [Fil]
+    <br><br>
+
+    > FinKU(financial knowledge understanding)
+
+- [Exam (tha)](https://huggingface.co/datasets/LanMe/Exam)
+- [ThaEval (tha)](https://huggingface.co/datasets/LanMe/ThaEval)
+- [ThaNA (tha)](https://huggingface.co/datasets/LanMe/ThaNA)
+- [urlSum (Ind)](https://huggingface.co/datasets/LanMe/UrlSum)
+- [AppRevs (Ind)](https://huggingface.co/datasets/LanMe/AppRevs)
+- [FinTopic (Ind)](https://huggingface.co/datasets/LanMe/FinTopic)
+- [VieFinRED(Vie)](https://huggingface.co/datasets/LanMe/VieFinRED)
+
+  
+> financial investment tendency(FinIT)
+
+- [FinSent(Ind)](https://huggingface.co/datasets/LanMe/FinSent)
+- [FilSA(Fil)](https://huggingface.co/datasets/LanMe/FilSA)
+- [MayFPB(May)](https://huggingface.co/datasets/LanMe/MayFPB)
+- [FilHeadlines(Fil)](https://huggingface.co/datasets/LanMe/FilHeadlines)
+- [VieNL(Vie)](https://huggingface.co/datasets/LanMe/VieNL)
+
+> financial credit rating(FinCR)
+
+- [IndCCFraud (Ind)](https://huggingface.co/datasets/LanMe/IndCCFraud)
+- [FilLenClub(Fil)](https://huggingface.co/datasets/LanMe/FilLenClub)
+- [VieCRACCF (Vie)](https://huggingface.co/datasets/LanMe/VieCRACCF)
+- [MayAustralian (May)](https://huggingface.co/datasets/LanMe/MayAustralian)
+
+> financial market decision-making (FinDM)
+
+- [ThaStockA (Tha)](https://huggingface.co/datasets/LanMe/ThaStockA)
+- [IndCIKM18(Ind)](https://huggingface.co/datasets/LanMe/IndCIKM18)
+- [FilACL18(Fil)](https://huggingface.co/datasets/LanMe/FilACL18)
+- [VieBigdata (Vie)](https://huggingface.co/datasets/LanMe/VieBigdata)
+- [MayACl18(May)](https://huggingface.co/datasets/LanMe/MayACL18)
+
+> financial numerical reasoning (FinNR)
+- [ThaNRen (Tha)](https://huggingface.co/datasets/LanMe/ThaNRen)
+- [IndNRen(Ind)](https://huggingface.co/datasets/LanMe/IndNRen)
+- [FilNRen(Fil)](https://huggingface.co/datasets/LanMe/FilNRen)
+- [VieNRen (Vie)](https://huggingface.co/datasets/LanMe/VieNRen)
+- [MayNRen(May)](https://huggingface.co/datasets/LanMe/MayNRen)
+
 
 
 
