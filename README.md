@@ -82,7 +82,7 @@
 
 <div align="left" style="margin-top: 40px;">
     <img src="https://github.com/qqgzi/LanMe/blob/master/asset/map.jpg" 
-   alt="SeaFBen's evaluation benchmark" style="float: left; width: 200px; height: 200px; margin-right: 10px;">
+   alt="SeaFBen's evaluation benchmark" style="float: left; width: 400px; height: 400px; margin-right: 10px;">
 </div>
 
 
