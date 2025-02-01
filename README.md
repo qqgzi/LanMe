@@ -94,7 +94,7 @@
 
 > FinKU(financial knowledge understanding)
 
-- [Exam (tha)])(https://huggingface.co/datasets/LanMe/Exam)
+- [Exam (tha)](https://huggingface.co/datasets/LanMe/Exam)
 - [ThaEval (tha)](https://huggingface.co/datasets/LanMe/ThaEval)
 - [ThaNA (tha)](https://huggingface.co/datasets/LanMe/ThaNA)
 - [urlSum (Ind)](https://huggingface.co/datasets/LanMe/UrlSum)
