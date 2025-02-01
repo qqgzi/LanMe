@@ -116,7 +116,7 @@
 - [VieCRACCF (Vie)](https://huggingface.co/datasets/LanMe/VieCRACCF)
 - [MayAustralian (May)](https://huggingface.co/datasets/LanMe/MayAustralian)
 
-> financial market decision-making (FinDM)
+> financial decision-making (FinDM)
 
 - [ThaStockA (Tha)](https://huggingface.co/datasets/LanMe/ThaStockA)
 - [IndCIKM18(Ind)](https://huggingface.co/datasets/LanMe/IndCIKM18)
@@ -130,6 +130,58 @@
 - [FilNRen(Fil)](https://huggingface.co/datasets/LanMe/FilNRen)
 - [VieNRen (Vie)](https://huggingface.co/datasets/LanMe/VieNRen)
 - [MayNRen(May)](https://huggingface.co/datasets/LanMe/MayNRen)
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
+  <div>
+    <strong>Languages</strong><br>
+    - [Tha] - [Ind] - [Vie] - [May] - [Fil]
+  </div>
+
+  <div>
+    <strong>FinKU (financial knowledge understanding)</strong><br>
+    - <a href="https://huggingface.co/datasets/LanMe/Exam">Exam (tha)</a><br>
+    - <a href="https://huggingface.co/datasets/LanMe/ThaEval">ThaEval (tha)</a><br>
+    - <a href="https://huggingface.co/datasets/LanMe/ThaNA">ThaNA (tha)</a><br>
+    - <a href="https://huggingface.co/datasets/LanMe/UrlSum">urlSum (Ind)</a><br>
+    - <a href="https://huggingface.co/datasets/LanMe/AppRevs">AppRevs (Ind)</a><br>
+    - <a href="https://huggingface.co/datasets/LanMe/FinTopic">FinTopic (Ind)</a><br>
+    - <a href="https://huggingface.co/datasets/LanMe/VieFinRED">VieFinRED (Vie)</a><br>
+  </div>
+
+  <div>
+    <strong>FinIT (financial investment tendency)</strong><br>
+    - <a href="https://huggingface.co/datasets/LanMe/FinSent">FinSent (Ind)</a><br>
+    - <a href="https://huggingface.co/datasets/LanMe/FilSA">FilSA (Fil)</a><br>
+    - <a href="https://huggingface.co/datasets/LanMe/MayFPB">MayFPB (May)</a><br>
+    - <a href="https://huggingface.co/datasets/LanMe/FilHeadlines">FilHeadlines (Fil)</a><br>
+    - <a href="https://huggingface.co/datasets/LanMe/VieNL">VieNL (Vie)</a><br>
+  </div>
+
+  <div>
+    <strong>FinCR (financial credit rating)</strong><br>
+    - <a href="https://huggingface.co/datasets/LanMe/IndCCFraud">IndCCFraud (Ind)</a><br>
+    - <a href="https://huggingface.co/datasets/LanMe/FilLenClub">FilLenClub (Fil)</a><br>
+    - <a href="https://huggingface.co/datasets/LanMe/VieCRACCF">VieCRACCF (Vie)</a><br>
+    - <a href="https://huggingface.co/datasets/LanMe/MayAustralian">MayAustralian (May)</a><br>
+  </div>
+
+  <div>
+    <strong>FinDM (financial decision-making)</strong><br>
+    - <a href="https://huggingface.co/datasets/LanMe/ThaStockA">ThaStockA (Tha)</a><br>
+    - <a href="https://huggingface.co/datasets/LanMe/IndCIKM18">IndCIKM18 (Ind)</a><br>
+    - <a href="https://huggingface.co/datasets/LanMe/FilACL18">FilACL18 (Fil)</a><br>
+    - <a href="https://huggingface.co/datasets/LanMe/VieBigdata">VieBigdata (Vie)</a><br>
+    - <a href="https://huggingface.co/datasets/LanMe/MayACL18">MayACl18 (May)</a><br>
+  </div>
+
+  <div>
+    <strong>FinNR (financial numerical reasoning)</strong><br>
+    - <a href="https://huggingface.co/datasets/LanMe/ThaNRen">ThaNRen (Tha)</a><br>
+    - <a href="https://huggingface.co/datasets/LanMe/IndNRen">IndNRen (Ind)</a><br>
+    - <a href="https://huggingface.co/datasets/LanMe/FilNRen">FilNRen (Fil)</a><br>
+    - <a href="https://huggingface.co/datasets/LanMe/VieNRen">VieNRen (Vie)</a><br>
+    - <a href="https://huggingface.co/datasets/LanMe/MayNRen">MayNRen (May)</a><br>
+  </div>
+</div>
 
 
 
