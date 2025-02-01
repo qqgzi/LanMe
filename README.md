@@ -149,8 +149,8 @@
 -  **Open-source Resource Sharing Contribution**: LanMe provides open-source models and evaluation tools, particularly addressing the gap in scarce financial data for low-resource languages, fostering collaborative advancement in financial NLP
 
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <div style="width: 40%; height: 400px;">
+<div style="display: flex; justify-content: space-between; align-items: flex-start; width: 100%; height: 400px;">
+  <div style="width: 40%;">
     <h3>Key Features</h3>
     <ul>
       <li><strong>Diversified Low-Resource Language Capabilities</strong>: SeaFllm, designed specifically for Southeast Asian financial LLMs, demonstrates exceptional performance across multiple Southeast Asian languages, particularly in cross-language financial Q&amp;A scenarios.</li>
@@ -160,7 +160,7 @@
       <li><strong>Open-source Resource Sharing Contribution</strong>: LanMe provides open-source models and evaluation tools, particularly addressing the gap in scarce financial data for low-resource languages, fostering collaborative advancement in financial NLP.</li>
     </ul>
   </div>
-  <div style="width: 40%; height: 400px; margin-left: 20px;">
+  <div style="width: 40%; margin-left: 20px;">
     <img src="https://github.com/qqgzi/LanMe/blob/master/asset/map.jpg" alt="SeaFBen's evaluation benchmark" style="width: 100%; height: auto;">
   </div>
 </div>
