@@ -55,7 +55,7 @@
 <h1 align="left">The LanMe Framework</h1>
 
 <div align="left" style="margin-top: 40px;">
-    <img src="https://github.com/qqgzi/LanMe/blob/master/asset/human.pdf" 
+    <img src="https://github.com/qqgzi/LanMe/blob/master/asset/human.jpg" 
    alt="The LanMe Framework" style="float: left; width: 25px; height: 25px; margin-right: 10px;">
 </div>
 
