@@ -165,7 +165,7 @@
   <div style=" width: 40%;
   height: 400px;float:right;margin-left:20px"> 
         <img src="https://github.com/qqgzi/LanMe/blob/master/asset/map.jpg" alt="SeaFBen's evaluation benchmark" style="width: 400px; height: auto;">
-    </div></div>
+ </div>
 </div>
 ---
 
