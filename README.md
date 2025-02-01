@@ -77,11 +77,12 @@
     <img src="https://github.com/qqgzi/LanMe/blob/master/asset/human.jpg" 
    alt="The LanMe Framework" style="float: left; width: 100%; height: 100%; margin-right: 10px;">
 </div>
-### SeaFBen's evaluation benchmark includes 26 datasets across 5 Southeast Asian low-resource languages (Thai, Indonesian, Vietnamese, Filipino, and Malay), covering 5 financial tasks: FinKU, FinIT, FinCR, FinDM, and FinNR
+
+**SeaFBen's evaluation benchmark includes 26 datasets across 5 Southeast Asian low-resource languages (Thai, Indonesian, Vietnamese, Filipino, and Malay), covering 5 financial tasks: FinKU, FinIT, FinCR, FinDM, and FinNR**
 
 <div align="left" style="margin-top: 40px;">
     <img src="https://github.com/qqgzi/LanMe/blob/master/asset/map.jpg" 
-   alt="SeaFBen's evaluation benchmark" style="float: left; width: 100%; height: 100%; margin-right: 10px;">
+   alt="SeaFBen's evaluation benchmark" style="float: left; width: 200px; height: 200px; margin-right: 10px;">
 </div>
 
 
