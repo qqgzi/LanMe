@@ -170,7 +170,7 @@ In this section, we provide a detailed performance analysis of SeaFllm compared 
 |                   | Ind          | UrlSum        | 14,168  | 14,168           | Indonesian News URLs| table              | Collection      | Paragraph            | Public          | [[5]](#5)  |
 |                   |              | AppRevs       | 154,637 | 153,214          | Mandiri App Reviews | text               | Collection      | Sentence             | CC BY-NC 4.0    |[[4]](#4)  |
 |                   |              | FinTopic      | 21,120  | 21,105           | News Articles       | text               | Collection      | Sentence             | Apache-2.0      |[[17]](#29)  |
-|                   | Vie          | VieFinRED     | 1,063   | 1,063            | Earning Call Transcripts | text             | Annotation      | Paragraph            | Public          |[[20]]
+|                   | Vie          | VieFinRED     | 1,063   | 1,063            | Earning Call Transcripts | text             | Annotation      | Paragraph            | Public          |[[20]](#32)
 | **FinIT**         | Ind          | FinSent       | 2,274   | 22,740           | News Headlines      | text, table        | Collection      | Sentence             | Apache-2.0      |[[6]](#6)  |
 |                   | Fil          | FilSA         | 1,173   | 1,171            | News Headlines, Tweets | text             | Annotation      | Sentence             | Public          |[[2]](#2)  |
 |                   |              | FilHeadlines  | 11,412  | 10,256           | News Headlines      | text               | Annotation      | Sentence             | CC BY-SA 3.0    |[[18]](#30)  |
@@ -244,6 +244,7 @@ dataset-judul-berita-indonesia/master/detik_news_title.csv).
 <span id ="30">18.</span> Sinha, Ankur, and Khandait, Tanmay. Impact of news on the commodity market: Dataset and results. *Advances in Information and Communication: Proceedings of the 2021 Future of Information and Communication Conference (FICC)*, Springer, 2021, pp. 589–601.
 
 <span id="31">19.</span> Lu, Dakuan, Wu, Hengkui, Liang, Jiaqing, Xu, Yipei, He, Qianyu, Geng, Yipeng, Han, Mengkun, Xin, Yingsi, Xiao, Yanghua. Bbt-fin: Comprehensive construction of chinese financial domain pre-trained language model, corpus and benchmark. *arXiv preprint arXiv:2302.09432*, 2023.
+<span id="32">20.</span> Sharma, Soumya, Nayak, Tapas, Bose, Arusarka, Meena, Ajay Kumar, Dasgupta, Koustuv, Ganguly, Niloy, Goyal, Pawan. (2022). *FinRED: A dataset for relation extraction in financial domain*. In *Companion Proceedings of the Web Conference 2022* (pp. 595–597).
 
 
 
