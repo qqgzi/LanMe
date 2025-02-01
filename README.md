@@ -149,24 +149,22 @@
 -  **Open-source Resource Sharing Contribution**: LanMe provides open-source models and evaluation tools, particularly addressing the gap in scarce financial data for low-resource languages, fostering collaborative advancement in financial NLP
 
 
-<div style="  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;">
-  <div style=" width: 40%;
-  height: 400px;float:left"><h3>Key Features</h3>
-        <ul>
-            <li><strong>Diversified Low-Resource Language Capabilities</strong>: SeaFllm, designed specifically for Southeast Asian financial LLMs, demonstrates exceptional performance across multiple Southeast Asian languages, particularly in cross-language financial Q&amp;A scenarios.</li>
-            <li><strong>Addressing Low-Resource Financial Data Scarcity</strong>: SeaFitd combines open-source datasets, manually created data, and curated translation and proofreading datasets that remove cultural and contextual biases to marks a significant breakthrough in both diversity and scale.</li>
-            <li><strong>High-Quality Southeast Asian Financial Prompts</strong>: SeaFitd is the first to showcase a diverse set of high-quality, expert-annotated prompts tailored for low-resource language finance, significantly improving prompt to optimize model performance.</li>
-            <li><strong>Cross-Language and Generalization Evaluation</strong>: SeaFBen introduces the unseen datasets to explore the model's generalization capabilities, including the FinNR and FinMD task to ensure balanced evaluation across different languages.</li>
-            <li><strong>Open-source Resource Sharing Contribution</strong>: LanMe provides open-source models and evaluation tools, particularly addressing the gap in scarce financial data for low-resource languages, fostering collaborative advancement in financial NLP.</li>
-        </ul></div>
-  <div style=" width: 40%;
-  height: 400px;float:right;margin-left:20px"> 
-        <img src="https://github.com/qqgzi/LanMe/blob/master/asset/map.jpg" alt="SeaFBen's evaluation benchmark" style="width: 400px; height: auto;">
- </div>
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <div style="width: 40%; height: 400px;">
+    <h3>Key Features</h3>
+    <ul>
+      <li><strong>Diversified Low-Resource Language Capabilities</strong>: SeaFllm, designed specifically for Southeast Asian financial LLMs, demonstrates exceptional performance across multiple Southeast Asian languages, particularly in cross-language financial Q&amp;A scenarios.</li>
+      <li><strong>Addressing Low-Resource Financial Data Scarcity</strong>: SeaFitd combines open-source datasets, manually created data, and curated translation and proofreading datasets that remove cultural and contextual biases to marks a significant breakthrough in both diversity and scale.</li>
+      <li><strong>High-Quality Southeast Asian Financial Prompts</strong>: SeaFitd is the first to showcase a diverse set of high-quality, expert-annotated prompts tailored for low-resource language finance, significantly improving prompt to optimize model performance.</li>
+      <li><strong>Cross-Language and Generalization Evaluation</strong>: SeaFBen introduces the unseen datasets to explore the model's generalization capabilities, including the FinNR and FinMD task to ensure balanced evaluation across different languages.</li>
+      <li><strong>Open-source Resource Sharing Contribution</strong>: LanMe provides open-source models and evaluation tools, particularly addressing the gap in scarce financial data for low-resource languages, fostering collaborative advancement in financial NLP.</li>
+    </ul>
+  </div>
+  <div style="width: 40%; height: 400px; margin-left: 20px;">
+    <img src="https://github.com/qqgzi/LanMe/blob/master/asset/map.jpg" alt="SeaFBen's evaluation benchmark" style="width: 100%; height: auto;">
+  </div>
 </div>
+
 ---
 
 ## SeaFBen Evalution Benchmark result: The evaluation results of 13 representative large models on SeaFBen.
