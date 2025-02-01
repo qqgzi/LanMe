@@ -172,7 +172,7 @@ In this section, we provide a detailed performance analysis of SeaFllm compared 
 |                   | Ind          | UrlSum        | 14,168  | 14,168           | Indonesian News URLs| table              | Collection      | Paragraph            | Public          | [[5]](#5)  |
 |                   |              | AppRevs       | 154,637 | 153,214          | Mandiri App Reviews | text               | Collection      | Sentence             | CC BY-NC 4.0    |[[4]](#4)  |
 |                   |              | FinTopic      | 21,120  | 21,105           | News Articles       | text               | Collection      | Sentence             | Apache-2.0      |[[17]]
-(#29)  |
+[Link](#29)  |
 |                   | Vie          | VieFinRED     | 1,063   | 1,063            | Earning Call Transcripts | text             | Annotation      | Paragraph            | Public          |[[20]]
 | **FinIT**         | Ind          | FinSent       | 2,274   | 22,740           | News Headlines      | text, table        | Collection      | Sentence             | Apache-2.0      |[[6]](#6)  |
 |                   | Fil          | FilSA         | 1,173   | 1,171            | News Headlines, Tweets | text             | Annotation      | Sentence             | Public          |[[2]](#2)  |
