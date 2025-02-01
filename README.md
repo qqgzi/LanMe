@@ -131,9 +131,9 @@
 - [VieNRen (Vie)](https://huggingface.co/datasets/LanMe/VieNRen)
 - [MayNRen(May)](https://huggingface.co/datasets/LanMe/MayNRen)
 
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
   <!-- 第一行内容 -->
-  <div>
+  <div style="flex: 1 1 30%; min-width: 300px;">
     <strong>FinKU (financial knowledge understanding)</strong><br>
     - <a href="https://huggingface.co/datasets/LanMe/Exam">Exam (tha)</a><br>
     - <a href="https://huggingface.co/datasets/LanMe/ThaEval">ThaEval (tha)</a><br>
@@ -144,7 +144,7 @@
     - <a href="https://huggingface.co/datasets/LanMe/VieFinRED">VieFinRED (Vie)</a><br>
   </div>
 
-  <div>
+  <div style="flex: 1 1 30%; min-width: 300px;">
     <strong>FinIT (financial investment tendency)</strong><br>
     - <a href="https://huggingface.co/datasets/LanMe/FinSent">FinSent (Ind)</a><br>
     - <a href="https://huggingface.co/datasets/LanMe/FilSA">FilSA (Fil)</a><br>
@@ -153,7 +153,7 @@
     - <a href="https://huggingface.co/datasets/LanMe/VieNL">VieNL (Vie)</a><br>
   </div>
 
-  <div>
+  <div style="flex: 1 1 30%; min-width: 300px;">
     <strong>FinCR (financial credit rating)</strong><br>
     - <a href="https://huggingface.co/datasets/LanMe/IndCCFraud">IndCCFraud (Ind)</a><br>
     - <a href="https://huggingface.co/datasets/LanMe/FilLenClub">FilLenClub (Fil)</a><br>
@@ -162,16 +162,16 @@
   </div>
 
   <!-- 第二行内容 -->
-  <div>
+  <div style="flex: 1 1 30%; min-width: 300px;">
     <strong>FinDM (financial decision-making)</strong><br>
     - <a href="https://huggingface.co/datasets/LanMe/ThaStockA">ThaStockA (Tha)</a><br>
     - <a href="https://huggingface.co/datasets/LanMe/IndCIKM18">IndCIKM18 (Ind)</a><br>
     - <a href="https://huggingface.co/datasets/LanMe/FilACL18">FilACL18 (Fil)</a><br>
     - <a href="https://huggingface.co/datasets/LanMe/VieBigdata">VieBigdata (Vie)</a><br>
-    - <a href="https://huggingface.co/datasets/LanMe/MayACL18">MayACl18 (May)</a><br>
+    - <a href="https://huggingface.co/datasets/LanMe/MayACL18">MayACL18 (May)</a><br>
   </div>
 
-  <div>
+  <div style="flex: 1 1 30%; min-width: 300px;">
     <strong>FinNR (financial numerical reasoning)</strong><br>
     - <a href="https://huggingface.co/datasets/LanMe/ThaNRen">ThaNRen (Tha)</a><br>
     - <a href="https://huggingface.co/datasets/LanMe/IndNRen">IndNRen (Ind)</a><br>
