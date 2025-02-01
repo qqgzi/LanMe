@@ -135,66 +135,6 @@
 - [MayNRen(May)](https://huggingface.co/datasets/LanMe/MayNRen)
 
 
-<div style="display: flex; align-items: flex-start;">
-  <!-- 图片部分 -->
-  <div style="flex: 0 0 400px; margin-right: 20px;">
-    <img src="https://github.com/qqgzi/LanMe/blob/master/asset/map.jpg" 
-         alt="SeaFBen's evaluation benchmark" 
-         style="width: 100%; height: auto;">
-  </div>
-  
-  <!-- 文本部分 -->
-  <div style="flex: 1;">
-    <strong>SeaFBen's evaluation benchmark includes 26 datasets across 5 Southeast Asian low-resource languages (Thai, Indonesian, Vietnamese, Filipino, and Malay), covering 5 financial tasks: FinKU, FinIT, FinCR, FinDM, and FinNR</strong>
-    <br><br>
-
-    **Languages**
-    - [Tha] - [Ind] - [Vie] - [May] - [Fil]
-    <br><br>
-
-    > FinKU(financial knowledge understanding)
-
-- [Exam (tha)](https://huggingface.co/datasets/LanMe/Exam)
-- [ThaEval (tha)](https://huggingface.co/datasets/LanMe/ThaEval)
-- [ThaNA (tha)](https://huggingface.co/datasets/LanMe/ThaNA)
-- [urlSum (Ind)](https://huggingface.co/datasets/LanMe/UrlSum)
-- [AppRevs (Ind)](https://huggingface.co/datasets/LanMe/AppRevs)
-- [FinTopic (Ind)](https://huggingface.co/datasets/LanMe/FinTopic)
-- [VieFinRED(Vie)](https://huggingface.co/datasets/LanMe/VieFinRED)
-
-  
-> financial investment tendency(FinIT)
-
-- [FinSent(Ind)](https://huggingface.co/datasets/LanMe/FinSent)
-- [FilSA(Fil)](https://huggingface.co/datasets/LanMe/FilSA)
-- [MayFPB(May)](https://huggingface.co/datasets/LanMe/MayFPB)
-- [FilHeadlines(Fil)](https://huggingface.co/datasets/LanMe/FilHeadlines)
-- [VieNL(Vie)](https://huggingface.co/datasets/LanMe/VieNL)
-
-> financial credit rating(FinCR)
-
-- [IndCCFraud (Ind)](https://huggingface.co/datasets/LanMe/IndCCFraud)
-- [FilLenClub(Fil)](https://huggingface.co/datasets/LanMe/FilLenClub)
-- [VieCRACCF (Vie)](https://huggingface.co/datasets/LanMe/VieCRACCF)
-- [MayAustralian (May)](https://huggingface.co/datasets/LanMe/MayAustralian)
-
-> financial market decision-making (FinDM)
-
-- [ThaStockA (Tha)](https://huggingface.co/datasets/LanMe/ThaStockA)
-- [IndCIKM18(Ind)](https://huggingface.co/datasets/LanMe/IndCIKM18)
-- [FilACL18(Fil)](https://huggingface.co/datasets/LanMe/FilACL18)
-- [VieBigdata (Vie)](https://huggingface.co/datasets/LanMe/VieBigdata)
-- [MayACl18(May)](https://huggingface.co/datasets/LanMe/MayACL18)
-
-> financial numerical reasoning (FinNR)
-- [ThaNRen (Tha)](https://huggingface.co/datasets/LanMe/ThaNRen)
-- [IndNRen(Ind)](https://huggingface.co/datasets/LanMe/IndNRen)
-- [FilNRen(Fil)](https://huggingface.co/datasets/LanMe/FilNRen)
-- [VieNRen (Vie)](https://huggingface.co/datasets/LanMe/VieNRen)
-- [MayNRen(May)](https://huggingface.co/datasets/LanMe/MayNRen)
-
-
-
 
 ### Key Features
 
@@ -208,6 +148,26 @@
 - **Cross-Language and Generalization Evaluation**:  SeaFBen introduces the unseen datasets to explore the model's generalization capabilities, including the FinNR and FinMD task to ensure balanced evaluation across different languages.
 -  **Open-source Resource Sharing Contribution**: LanMe provides open-source models and evaluation tools, particularly addressing the gap in scarce financial data for low-resource languages, fostering collaborative advancement in financial NLP
 
+<div style="display: flex; align-items: flex-start;">
+  <!-- Key Features 内容部分 -->
+  <div style="flex: 1; margin-right: 20px;">
+    <h3>Key Features</h3>
+    <ul>
+      <li><strong>Diversified Low-Resource Language Capabilities</strong>: SeaFllm, designed specifically for Southeast Asian financial LLMs, demonstrates exceptional performance across multiple Southeast Asian languages, particularly in cross-language financial Q&amp;A scenarios.</li>
+      <li><strong>Addressing Low-Resource Financial Data Scarcity</strong>: SeaFitd combines open-source datasets, manually created data, and curated translation and proofreading datasets that remove cultural and contextual biases to marks a significant breakthrough in both diversity and scale.</li>
+      <li><strong>High-Quality Southeast Asian Financial Prompts</strong>: SeaFitd is the first to showcase a diverse set of high-quality, expert-annotated prompts tailored for low-resource language finance, significantly improving prompt to optimize model performance.</li>
+      <li><strong>Cross-Language and Generalization Evaluation</strong>: SeaFBen introduces the unseen datasets to explore the model's generalization capabilities, including the FinNR and FinMD task to ensure balanced evaluation across different languages.</li>
+      <li><strong>Open-source Resource Sharing Contribution</strong>: LanMe provides open-source models and evaluation tools, particularly addressing the gap in scarce financial data for low-resource languages, fostering collaborative advancement in financial NLP.</li>
+    </ul>
+  </div>
+  
+  <!-- 图片部分 -->
+  <div style="flex: 0 0 400px;">
+    <img src="https://github.com/qqgzi/LanMe/blob/master/asset/map.jpg" 
+         alt="SeaFBen's evaluation benchmark" 
+         style="width: 100%; height: auto;">
+  </div>
+</div>
 
 ---
 
