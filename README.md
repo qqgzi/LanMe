@@ -53,18 +53,6 @@
 
 
 
-<h1 align="left">The LanMe Framework</h1>
-<div align="left" style="margin-top: 40px;">
-    <img src="https://github.com/qqgzi/LanMe/blob/master/asset/human.jpg" 
-   alt="The LanMe Framework" style="float: left; width: 100%; height: 100%; margin-right: 10px;">
-</div>
-### SeaFBen's evaluation benchmark includes 26 datasets across 5 Southeast Asian low-resource languages (Thai, Indonesian, Vietnamese, Filipino, and Malay), covering 5 financial tasks: FinKU, FinIT, FinCR, FinDM, and FinNR
-
-<div align="left" style="margin-top: 40px;">
-    <img src="https://github.com/qqgzi/LanMe/blob/master/asset/map.jpg" 
-   alt="SeaFBen's evaluation benchmark" style="float: left; width: 100%; height: 100%; margin-right: 10px;">
-</div>
-
 
 
 <!-- 底部图片部分
@@ -83,6 +71,18 @@
 [Pixiu Paper](https://arxiv.org/abs/2306.05443) | [FinBen Leaderboard](https://huggingface.co/spaces/finosfoundation/Open-Financial-LLM-Leaderboard)
  -->
 
+
+<h1 align="left">The LanMe Framework</h1>
+<div align="left" style="margin-top: 40px;">
+    <img src="https://github.com/qqgzi/LanMe/blob/master/asset/human.jpg" 
+   alt="The LanMe Framework" style="float: left; width: 100%; height: 100%; margin-right: 10px;">
+</div>
+### SeaFBen's evaluation benchmark includes 26 datasets across 5 Southeast Asian low-resource languages (Thai, Indonesian, Vietnamese, Filipino, and Malay), covering 5 financial tasks: FinKU, FinIT, FinCR, FinDM, and FinNR
+
+<div align="left" style="margin-top: 40px;">
+    <img src="https://github.com/qqgzi/LanMe/blob/master/asset/map.jpg" 
+   alt="SeaFBen's evaluation benchmark" style="float: left; width: 100%; height: 100%; margin-right: 10px;">
+</div>
 
 
 **Languages**
