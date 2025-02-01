@@ -148,9 +148,10 @@
 
 **SeaFBen's evaluation benchmark includes 26 datasets across 5 Southeast Asian low-resource languages (Thai, Indonesian, Vietnamese, Filipino, and Malay), covering 5 financial tasks: FinKU, FinIT, FinCR, FinDM, and FinNR**
 
-  <div >
-    <img src="https://github.com/qqgzi/LanMe/blob/master/asset/map.jpg" alt="SeaFBen's evaluation benchmark" style="width: 400px; height: 400px;margin:center;">
-  </div>
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img src="https://github.com/qqgzi/LanMe/blob/master/asset/map.jpg" alt="SeaFBen's evaluation benchmark" style="width: 400px; height: 400px;">
+</div>
+
 
 
 ---
