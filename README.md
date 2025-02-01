@@ -165,10 +165,8 @@ In this section, we provide a detailed performance analysis of SeaFllm compared 
 | **Financial Task** | **Language** | **Dataset**   | **Raw**  | **Instruction**  | **Data Types**      | **Modalities**     | **Source**      | **Textual Hierarchy** | **License**     | **Paper**|
 |-------------------|--------------|---------------|---------|------------------|---------------------|--------------------|-----------------|-----------------------|-----------------|-----------------|
 | **FinKU**         | Tha          | Exam          | 158     | 3159             | financial exam      | text, table        | Collection      | Sentence             | Apache-2.0      |[[3]](#3)  |
-|                   |              | ThaEval       | 1,115   | 1,113            | financial exam      | text               | Annotation      | Paragraph            | Apache-2.0      |[[15]] 
-(#27)  |
-|                   |              | ThaNA         | 32,400  | 32,400           | News, Announcement  | text               | Annotation      | Paragraph            | Public          |[[16]]
-(#28)  |
+|                   |              | ThaEval       | 1,115   | 1,113            | financial exam      | text               | Annotation      | Paragraph            | Apache-2.0      |[[15]](#27)  |
+|                   |              | ThaNA         | 32,400  | 32,400           | News, Announcement  | text               | Annotation      | Paragraph            | Public          |[[16]]#28)  |
 |                   | Ind          | UrlSum        | 14,168  | 14,168           | Indonesian News URLs| table              | Collection      | Paragraph            | Public          | [[5]](#5)  |
 |                   |              | AppRevs       | 154,637 | 153,214          | Mandiri App Reviews | text               | Collection      | Sentence             | CC BY-NC 4.0    |[[4]](#4)  |
 |                   |              | FinTopic      | 21,120  | 21,105           | News Articles       | text               | Collection      | Sentence             | Apache-2.0      |[[17]]
