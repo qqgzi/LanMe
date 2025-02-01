@@ -314,7 +314,7 @@ dataset-judul-berita-indonesia/master/detik_news_title.csv).
 
 ##### Locally install
 ```bash
-git clone https://github.com/qqgzi/LanMe.git --recursive
+<!-- git clone https://github.com/qqgzi/LanMe.git --recursive-->
 cd LanMe
 pip install -r requirements.txt
 cd src/financial-evaluation
