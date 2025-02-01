@@ -78,12 +78,9 @@
    alt="The LanMe Framework" style="float: left; width: 100%; height: 100%; margin-right: 10px;">
 </div>
 
-**SeaFBen's evaluation benchmark includes 26 datasets across 5 Southeast Asian low-resource languages (Thai, Indonesian, Vietnamese, Filipino, and Malay), covering 5 financial tasks: FinKU, FinIT, FinCR, FinDM, and FinNR**
 
-<div align="left" style="margin-top: 40px;">
-    <img src="https://github.com/qqgzi/LanMe/blob/master/asset/map.jpg" 
-   alt="SeaFBen's evaluation benchmark" style="float: left; width: 400px; height: 400px; margin-right: 10px;">
-</div>
+
+
 
 
 **Languages**
@@ -146,12 +143,13 @@
 - **High-Quality Southeast Asian Financial Prompts**: SeaFitd is the first to showcase a diverse set of high-quality, expert-annotated prompts tailored for low-resource language finance, significantly improving prompt to optimize model performance.
 
 - **Cross-Language and Generalization Evaluation**:  SeaFBen introduces the unseen datasets to explore the model's generalization capabilities, including the FinNR and FinMD task to ensure balanced evaluation across different languages.
--  **Open-source Resource Sharing Contribution**: LanMe provides open-source models and evaluation tools, particularly addressing the gap in scarce financial data for low-resource languages, fostering collaborative advancement in financial NLP
+-  **Open-source Resource Sharing Contribution**: LanMe provides open-source models and evaluation tools, particularly addressing the gap in scarce financial data for low-resource languages, fostering collaborative advancement in financial NLP.
+-  
 
+**SeaFBen's evaluation benchmark includes 26 datasets across 5 Southeast Asian low-resource languages (Thai, Indonesian, Vietnamese, Filipino, and Malay), covering 5 financial tasks: FinKU, FinIT, FinCR, FinDM, and FinNR**
 
-
-  <div ">
-    <img src="https://github.com/qqgzi/LanMe/blob/master/asset/map.jpg" alt="SeaFBen's evaluation benchmark" style="width: 400px; height: 400px;">
+  <div >
+    <img src="https://github.com/qqgzi/LanMe/blob/master/asset/map.jpg" alt="SeaFBen's evaluation benchmark" style="width: 400px; height: 400px;margin:center;">
   </div>
 
 
