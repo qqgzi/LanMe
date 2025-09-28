@@ -5,7 +5,26 @@
    </h1>
 </div>
    Welcome to here, let's get to know LanMe together. </br>
-   we introduce LanMe (澜湄), the first open-source multilingual framework for Southeast Asian financial NLP. LanMe includes the multilingual instruction dataset SeaFitd, fine-tuned financial LLM SeaFllm, and the evaluation benchmark SeaFBen. SeaFitd covers 26 datasets in 5 Southeast Asian languages (Thai, Indonesian, Vietnamese, Filipino, and Malay), containing 369,849 data points across 5 financial tasks, expanding the breadth and depth of low-resource language financial modeling. Using this, we fine-tune the SeaLLM-7B backbone model to create the innovative financial LLM SeaFllm. We then evaluate vairous models using SeaFBen, the first comprehensive multilingual benchmark, covering unseen, balanced cross-lingual tasks. Experimental results show that existing LLMs struggle with low-resource languages, exhibiting issues catastrophic forgetting and language performance disparities and biases, with SeaFllm outperforming various LLMs, including Southeast Asian's LLMs and large-parameter ChatGPT. Our research highlights the potential of LanMe to fill gaps in financial NLP for Southeast Asian, offering high-quality annotated datasets, evaluation tools, and models
+  While Large Language Models (LLMs) have significantly improved financial analy-
+sis, their focus on dominant monolingual languages like Chinese and English has left
+Southeast Asian low-resource languages largely neglected. To address this gap, we
+introduce LanMe (澜湄), the first open-source multilingual framework for Southeast
+Asian financial NLP. LanMe includes the multilingual instruction dataset SeaFITD,
+fine-tuned financial LLM SeaFGPT, and the evaluation benchmark SeaFBEN.
+SeaFITD covers 26 datasets in 5 Southeast Asian (SEA) languages (Thai,
+Indonesian, Vietnamese, Filipino, and Malay), containing 369,849 data points
+across 5 financial tasks, expanding the breadth and depth of low-resource language
+financial modeling. Leveraging this, we fine-tune the SeaLLM-7B backbone model
+to create the innovative financial LLM SeaFGPT. We then evaluate various LLMs
+using SeaFBEN, the first comprehensive multilingual benchmark, covering unseen,
+balanced cross-lingual tasks. Experimental results show that existing LLMs
+struggle with low-resource languages, exhibiting issues catastrophic forgetting
+and language performance disparities and biases, with our SeaFGPT-V2 version
+surpasses various LLMs, including SEA LLMs and and proprietary ones, despite the
+latter’s massive parameters. Qwen2-based SeaFGPT-V1 shows similar excellence,
+benefiting from diverse, high-quality instruction sets and strategic fine-tuning. Our
+study underscores LanMe’s potential to narrow the divide in low-resource financial
+NLP for SEA, providing a top-tier annotated dataset, evaluation tool, and model.
 <!-- 作者部分    
 <h1 align="left">Main Contributors</h1>
 
