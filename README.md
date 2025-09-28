@@ -168,7 +168,7 @@ NLP for SEA, providing a top-tier annotated dataset, evaluation tool, and model.
 **SeaFBEN's evaluation benchmark includes 26 datasets across 5 Southeast Asian low-resource languages (Thai, Indonesian, Vietnamese, Filipino, and Malay), covering 5 financial tasks: FinKU, FinIT, FinCR, FinDM, and FinNR**
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 400px;">
-  <img src="https://github.com/qqgzi/LanMe/blob/master/asset/map.jpg" alt="SeaFBEN's evaluation benchmark" style="width: 400px; height: 400px;">
+  <img src="https://github.com/qqgzi/LanMe/blob/master/asset/map.jpg" alt="SeaFBEN's evaluation benchmark" style="width: 400px; height: 600px;">
 </div>
 
 
