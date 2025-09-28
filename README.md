@@ -153,17 +153,25 @@ NLP for SEA, providing a top-tier annotated dataset, evaluation tool, and model.
 
 
 ### Key Features
+ - **Diversified Low-Resource Language Capabilities**:Capabilities: SeaFGPT, designed specifically for Southeast Asian financial LLMs, demonstrates excep-
+tional performance across multiple Southeast Asian languages, particularly in cross-language financial
+Q&A scenarios.
+- **Addressing Low-Resource Financial Data Scarcity**: SeaFITD combines open-
+source datasets, manually created data, and curated translation and proofreading datasets that remove
+cultural and contextual biases to mark a significant breakthrough in both diversity and scale.
+ - **High-Quality Southeast Asian Financial Prompts**: SeaFITD is the first to showcase a diverse set of high-
+quality, expert-annotated prompts tailored for low-resource language finance, significantly improving prompt
+to optimize model performance.
+- **Benchmark Adaptation in Multilingual Finance**: SeaFBEN
+integrates real-world multilingual data from Southeast Asia, along with supplemental datasets not directly
+translated but annotated by financial experts to remove finance- and culture-specific elements, ensuring
+better multilingual adaptation.
+- **Cross-Language and Generalization Evaluation**: SeaFBEN
+introduces the unseen datasets to explore the model’s generalization capabilities, including the FinNR and
+FinDM task to ensure balanced evaluation across different languages.
+ - **Open-source Resource Sharing Contribution**: LanMe provides open-source models and evaluation tools, particularly addressing the gap
+in scarce financial data for low-resource languages, fostering collaborative advancement in financial NLP
 
-
-- **Diversified Low-Resource Language Capabilities**: SeaFGPT, designed specifically for Southeast Asian financial LLMs, demonstrates exceptional performance across multiple Southeast Asian languages, particularly in cross-language financial Q\&A scenarios.
-
-- **Addressing Low-Resource Financial Data Scarcity**: SeaFITD combines open-source datasets, manually created data, and curated translation and proofreading datasets that remove cultural and contextual biases to marks a significant breakthrough in both diversity and scale.
-
-- **High-Quality Southeast Asian Financial Prompts**: SeaFITD is the first to showcase a diverse set of high-quality, expert-annotated prompts tailored for low-resource language finance, significantly improving prompt to optimize model performance.
-
-- **Cross-Language and Generalization Evaluation**:  SeaFBEN introduces the unseen datasets to explore the model's generalization capabilities, including the FinNR and FinMD task to ensure balanced evaluation across different languages.
--  **Open-source Resource Sharing Contribution**: LanMe provides open-source models and evaluation tools, particularly addressing the gap in scarce financial data for low-resource languages, fostering collaborative advancement in financial NLP.
--  
 
 **SeaFBEN's evaluation benchmark includes 26 datasets across 5 Southeast Asian low-resource languages (Thai, Indonesian, Vietnamese, Filipino, and Malay), covering 5 financial tasks: FinKU, FinIT, FinCR, FinDM, and FinNR**
 
