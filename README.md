@@ -187,7 +187,7 @@ in scarce financial data for low-resource languages, fostering collaborative adv
 ## SeaFBEN Evalution Benchmark result: The evaluation results of 13 representative large models on SeaFBEN.
 
 In this section, we provide a detailed performance analysis of SeaFGPT compared to other leading models, including ChatGPT, Qwen2-7B, and SeaLLMs et al. For this analysis, we've chosen a range of tasks and metrics that span various aspects of financial Natural Language Processing and financial prediction.
-### Tasks
+### The details of the data integration and instruction data in SeaFITD, grouped by language.
 
 | **Financial Task** | **Language** | **Dataset**   | **Raw**  | **Instruction**  | **Data Types**      | **Modalities**     | **Source**      | **Textual Hierarchy** | **License**     | **Paper**|
 |-------------------|--------------|---------------|---------|------------------|---------------------|--------------------|-----------------|-----------------------|-----------------|-----------------|
@@ -273,7 +273,8 @@ dataset-judul-berita-indonesia/master/detik_news_title.csv).
 <span id="31">19.</span> Lu, Dakuan, Wu, Hengkui, Liang, Jiaqing, Xu, Yipei, He, Qianyu, Geng, Yipeng, Han, Mengkun, Xin, Yingsi, Xiao, Yanghua. Bbt-fin: Comprehensive construction of chinese financial domain pre-trained language model, corpus and benchmark. *arXiv preprint arXiv:2302.09432*, 2023.
 <span id="32">20.</span> Sharma, Soumya, Nayak, Tapas, Bose, Arusarka, Meena, Ajay Kumar, Dasgupta, Koustuv, Ganguly, Niloy, Goyal, Pawan. (2022). *FinRED: A dataset for relation extraction in financial domain*. In *Companion Proceedings of the Web Conference 2022* (pp. 595–597).
 
-
+### The detailed evaluation results of various LLMs on the Southeast Asian financial benchmark SeaFBEN. Results in bold
+indicate the best results across all models.
 | Dataset | Metric | LLama2 | LLama3 | Gemma | ChatGPT-3.5 | GPT-4o | Qwen2 | DeepSeep-v3 | SeaLLM-v2 | SeaLLM-v2.5 | SeaLLM-v3 | Polylm | typhoon | Sailor | PhoGPT | FinMA | Cornucopia | CFGPT | DISC-FinLLM | XuanYuan | ICE-INTENT | SeaFGPT-V1 | SeaFGPT-V2 |
 |---------|--------|--------|--------|-------|-------------|--------|-------|-------------|-----------|-------------|-----------|--------|---------|--------|--------|-------|------------|-------|-------------|----------|------------|------------|------------|
 | **Exam** | ACC | 0.171 | 0.200 | 0.181 | 0.653 | 0.640 | 0.404 | 0.661 | 0.301 | 0.388 | 0.371 | 0.000 | 0.197 | 0.178 | 0.041 | 0.076 | 0.144 | 0.048 | 0.170 | 0.155 | 0.063 | 0.754 | **0.991** |
