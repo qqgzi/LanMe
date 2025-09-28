@@ -155,20 +155,20 @@ NLP for SEA, providing a top-tier annotated dataset, evaluation tool, and model.
 ### Key Features
 
 
-- **Diversified Low-Resource Language Capabilities**: SeaFllm, designed specifically for Southeast Asian financial LLMs, demonstrates exceptional performance across multiple Southeast Asian languages, particularly in cross-language financial Q\&A scenarios.
+- **Diversified Low-Resource Language Capabilities**: SeaFGPT, designed specifically for Southeast Asian financial LLMs, demonstrates exceptional performance across multiple Southeast Asian languages, particularly in cross-language financial Q\&A scenarios.
 
-- **Addressing Low-Resource Financial Data Scarcity**: SeaFitd combines open-source datasets, manually created data, and curated translation and proofreading datasets that remove cultural and contextual biases to marks a significant breakthrough in both diversity and scale.
+- **Addressing Low-Resource Financial Data Scarcity**: SeaFITD combines open-source datasets, manually created data, and curated translation and proofreading datasets that remove cultural and contextual biases to marks a significant breakthrough in both diversity and scale.
 
-- **High-Quality Southeast Asian Financial Prompts**: SeaFitd is the first to showcase a diverse set of high-quality, expert-annotated prompts tailored for low-resource language finance, significantly improving prompt to optimize model performance.
+- **High-Quality Southeast Asian Financial Prompts**: SeaFITD is the first to showcase a diverse set of high-quality, expert-annotated prompts tailored for low-resource language finance, significantly improving prompt to optimize model performance.
 
-- **Cross-Language and Generalization Evaluation**:  SeaFBen introduces the unseen datasets to explore the model's generalization capabilities, including the FinNR and FinMD task to ensure balanced evaluation across different languages.
+- **Cross-Language and Generalization Evaluation**:  SeaFBEN introduces the unseen datasets to explore the model's generalization capabilities, including the FinNR and FinMD task to ensure balanced evaluation across different languages.
 -  **Open-source Resource Sharing Contribution**: LanMe provides open-source models and evaluation tools, particularly addressing the gap in scarce financial data for low-resource languages, fostering collaborative advancement in financial NLP.
 -  
 
-**SeaFBen's evaluation benchmark includes 26 datasets across 5 Southeast Asian low-resource languages (Thai, Indonesian, Vietnamese, Filipino, and Malay), covering 5 financial tasks: FinKU, FinIT, FinCR, FinDM, and FinNR**
+**SeaFBEN's evaluation benchmark includes 26 datasets across 5 Southeast Asian low-resource languages (Thai, Indonesian, Vietnamese, Filipino, and Malay), covering 5 financial tasks: FinKU, FinIT, FinCR, FinDM, and FinNR**
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 400px;">
-  <img src="https://github.com/qqgzi/LanMe/blob/master/asset/map.jpg" alt="SeaFBen's evaluation benchmark" style="width: 400px; height: 400px;">
+  <img src="https://github.com/qqgzi/LanMe/blob/master/asset/map.jpg" alt="SeaFBEN's evaluation benchmark" style="width: 400px; height: 400px;">
 </div>
 
 
@@ -176,9 +176,9 @@ NLP for SEA, providing a top-tier annotated dataset, evaluation tool, and model.
 
 ---
 
-## SeaFBen Evalution Benchmark result: The evaluation results of 13 representative large models on SeaFBen.
+## SeaFBEN Evalution Benchmark result: The evaluation results of 13 representative large models on SeaFBEN.
 
-In this section, we provide a detailed performance analysis of SeaFllm compared to other leading models, including ChatGPT, Qwen2-7B, and SeaLLMs et al. For this analysis, we've chosen a range of tasks and metrics that span various aspects of financial Natural Language Processing and financial prediction.
+In this section, we provide a detailed performance analysis of SeaFGPT compared to other leading models, including ChatGPT, Qwen2-7B, and SeaLLMs et al. For this analysis, we've chosen a range of tasks and metrics that span various aspects of financial Natural Language Processing and financial prediction.
 ### Tasks
 
 | **Financial Task** | **Language** | **Dataset**   | **Raw**  | **Instruction**  | **Data Types**      | **Modalities**     | **Source**      | **Textual Hierarchy** | **License**     | **Paper**|
